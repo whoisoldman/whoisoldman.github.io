@@ -35,7 +35,6 @@ I have excellent experience (over 25 years) in marketing and enterprise developm
    📫 How to reach me: <a href='mailto:it@dontnsp.am'>Mr.OLDMAN's Email</a>
 </p>
 
-
 ### Key points
 *   creator of [Javarush Community](https://github.com/javarushcommunity) and [Template Repository](https://github.com/template-repository) organizations.
 *   creator and author of [romankh3](https://t.me/romankh3) telegram channel. Subscribe to recieve messages about my open-source activities.
@@ -62,6 +61,7 @@ I have excellent experience (over 25 years) in marketing and enterprise developm
    </a>
 </div>
 
+<!--
 # !!!!!!!! ><><><><><><><><> !!!!!!!!
 
 # Hi, I'm Roman 👋
@@ -113,3 +113,4 @@ In general worked with monolitic, microservice and serverless arthitectures. Big
        <img width="175px" src="https://komarev.com/ghpvc/?username=romankh3&color=DE002D">
    </a>
 </div>
+-->
