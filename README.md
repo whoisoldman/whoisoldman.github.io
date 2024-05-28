@@ -33,7 +33,7 @@ I have excellent experience (over 25 years) in marketing and enterprise developm
 *   Currently study in [ProductStar](https://productstar.ru/)
 
 ## 🛠 Technical Stack
-*   Python (Level: Junior) language
+*   Python language (Level: Junior) 
 *   SQLite, PostgreSQL
 *   Git/GitHub/GitLab/GitLab CI
 *   API on Flask
