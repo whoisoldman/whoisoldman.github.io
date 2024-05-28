@@ -29,12 +29,12 @@ I have excellent experience (over 25 years) in marketing and enterprise developm
 ### Key points
 *   owner of [SoundBloqs Community](https://soundbloqs.com/) <!-- and [Template Repository](https://github.com/template-repository) organizations.-->
 *   owner of [TrustMoney.UK](https://trustmoney.uk/) - online Project manager of global private consulting Club (world transfers, trading, M0-M1 funds, VISA.NET, investing solution, energy, gold, food, blockchain and cryptocurrencies and more ...)
-*   Write posts about software development
+*   Write posts about software development, music, art in its general sense and, of course, about talented people who make our world beautiful!
 *   Currently study in [ProductStar](https://productstar.ru/)
 
 ## 🛠 Technical Stack
 *   Python language (Level: Junior) 
-*   SQLite, PostgreSQL
+*   SQL (SQLite, PostgreSQL)
 *   Git/GitHub/GitLab/GitLab CI
 *   API on Flask
 
@@ -52,6 +52,7 @@ I have excellent experience (over 25 years) in marketing and enterprise developm
 <p align='center'>
    How to reach me: <a href='mailto:it@dontnsp.am'>Mr.OLDMAN's Email</a>
 </p>
+<p align="center">... just stay Humane!</p>
 
 <!--
 # !!!!!!!! ><><><><><><><><> !!!!!!!!
