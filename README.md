@@ -23,45 +23,35 @@ I have excellent experience (over 25 years) in marketing and enterprise developm
            height=150
            src="https://github-readme-stats.vercel.app/api?username=whoisoldman&show_icons=true&count_private=true"/></a>
    <a href="https://github.com/romankh3/github-readme-stats"><img height=150
-                                                                  src="https://github-readme-stats.vercel.app/api/top-langs/?username=whoisoldman&layout=compact"/></a>
-</p>
-
-<p align='center'>
-   <a href="https://www.linkedin.com/in/soundbloqs/">
-       <img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white"/>
-   </a>
-   <a href="https://t.me/>
-       <img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white"/>
-   </a>
-<p align='center'>
-   📫 How to reach me: <a href='mailto:it@dontnsp.am'>Mr.OLDMAN's Email</a>
+   src="https://github-readme-stats.vercel.app/api/top-langs/?username=whoisoldman&layout=compact"/></a>
 </p>
 
 ### Key points
-*   owner of [SoundBloqs Community](https://soundbloqs.com/). <!-- and [Template Repository](https://github.com/template-repository) organizations.-->
-*   owner of [TrustMoney.Club](https://trustmoney.club/) - Global Private Consulting (world transfers, trading, M0-M1 funds, VISA.NET, investing solution, energy, gold, food, blockchain and cryptocurrencies and more ...).
-*   Write posts about software development.
-*   Currently study in [ProductStar](https://productstar.ru/).
+*   owner of [SoundBloqs Community](https://soundbloqs.com/) <!-- and [Template Repository](https://github.com/template-repository) organizations.-->
+*   owner of [TrustMoney.UK](https://trustmoney.uk/) - online Project manager of global private consulting Club (world transfers, trading, M0-M1 funds, VISA.NET, investing solution, energy, gold, food, blockchain and cryptocurrencies and more ...)
+*   Write posts about software development
+*   Currently study in [ProductStar](https://productstar.ru/)
 
 ## 🛠 Technical Stack
-*   Java/Kotlin/Groovy/COBOL languages
-*   MySQL, PostgreSQL, MongoDB, Aurora, DynamoDB, Flyway, Liquibase
-*   Spring Framework, Spring Boot, Spring Test, Spring Data Jpa, Spring Jdbc template, Spring Cloud Contract and so on...
-*   Camunda, Camunda Cockpit, Camunda Modeleter
-*   GitHub/GitLab/Gerrit/Bitbucket
+*   Python (Level: Junior) language
+*   SQLite, PostgreSQL
+*   Git/GitHub/GitLab/GitLab CI
+*   API on Flask
 
 ### My opensource projects
 
-*   [image-comparison](https://github.com/romankh3/image-comparison) - Published on Maven Central Java Library that compares 2 images with the same sizes and shows the differences visually by drawing rectangles. Some parts of the image can be excluded from the comparison.
-*   [JavaRush TelegramBot](https://github.com/javarushcommunity/javarush-telegrambot) - JavaRush Telegram bot from the community to the community
-*   [Skyscanner Flight API client](https://github.com/romankh3/skyscanner-flight-api-client) - Published on Maven Central Java Client for a Skyscanner Flight Search API hosted in Rapid API
-*   [Flights-monitoring](https://github.com/romankh3/flights-monitoring) - Application for monitoring flight cost based on Skyscanner API
+*   Coming soon ...
 
-<div align="center" style="margin: 40px 0">
-   <a href="https://github.com/romankh3/github-profile-views-counter">
-       <img width="175px" src="https://komarev.com/ghpvc/?username=romankh3&color=DE002D">
+<p align='center'>
+   <a href="https://www.linkedin.com/in/soundbloqs/">
+      ⚡ <img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white"/> ⚡
    </a>
-</div>
+   <a href="https://t.me/soundbloqsfb_bot">
+       <img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white"/> ⚡
+   </a>
+<p align='center'>
+   How to reach me: <a href='mailto:it@dontnsp.am'>Mr.OLDMAN's Email</a>
+</p>
 
 <!--
 # !!!!!!!! ><><><><><><><><> !!!!!!!!
