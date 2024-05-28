@@ -19,9 +19,9 @@ I have excellent experience (over 25 years) in marketing and enterprise developm
 ### Now my status is: student of the Python course-developer (Level: &#x1f535; JUNIOR).
 ### My statistics:
 <p align='center'>
-   <a href="https://github-readme-stats.vercel.app/api?username=whoisoldman&show_icons=true&count_private=true"><img
-           height=150
-           src="https://github-readme-stats.vercel.app/api?username=whoisoldman&show_icons=true&count_private=true"/></a>
+   <a href="https://github-readme-stats.vercel.app/api?username=whoisoldman&show_icons=true&count_private=true"><img 
+      height=150
+      src="https://github-readme-stats.vercel.app/api?username=whoisoldman&show_icons=true&count_private=true"/></a>
    <a href="https://github.com/romankh3/github-readme-stats"><img height=150
    src="https://github-readme-stats.vercel.app/api/top-langs/?username=whoisoldman&layout=compact"/></a>
 </p>
@@ -52,4 +52,6 @@ I have excellent experience (over 25 years) in marketing and enterprise developm
 <p align='center'>
    How to reach me: <a href='mailto:it@dontnsp.am'>Mr.OLDMAN's Email</a>
 </p>
-<p align="center">... just stay Humane!</p>
+<p align="center">
+   ... just stay Humane!
+</p>
