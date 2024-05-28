@@ -16,6 +16,8 @@ Here are some ideas to get you started:
 # Hi, i'm Mr.OLDMAN 👋
 I have excellent experience (over 25 years) in marketing and enterprise development management. He went from a simple manager to Director of Development and Marketing of a large international investment holding company. In general, he worked on creating a high-margin business with a vertically integrated management structure. But this is in a previous life...
 
+### Now my status is: student of the Python course-developer (Level: &#x1f535; JUNIOR).
+### My statistics:
 <p align='center'>
    <a href="https://github-readme-stats.vercel.app/api?username=whoisoldman&show_icons=true&count_private=true"><img
            height=150
@@ -28,7 +30,7 @@ I have excellent experience (over 25 years) in marketing and enterprise developm
    <a href="https://www.linkedin.com/in/soundbloqs/">
        <img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white"/>
    </a>
-   <a href="https://t.me/joinchat/SpqRPBFo_sM6qm05">
+   <a href="https://t.me/>
        <img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white"/>
    </a>
 <p align='center'>
@@ -36,10 +38,10 @@ I have excellent experience (over 25 years) in marketing and enterprise developm
 </p>
 
 ### Key points
-*   creator of [Javarush Community](https://github.com/javarushcommunity) and [Template Repository](https://github.com/template-repository) organizations.
-*   creator and author of [romankh3](https://t.me/romankh3) telegram channel. Subscribe to recieve messages about my open-source activities.
+*   owner of [SoundBloqs Community](https://soundbloqs.com/). <!-- and [Template Repository](https://github.com/template-repository) organizations.-->
+*   owner of [TrustMoney.Club](https://trustmoney.club/) - Global Private Consulting (world transfers, trading, M0-M1 funds, VISA.NET, investing solution, energy, gold, food, blockchain and cryptocurrencies and more ...).
 *   Write posts about software development.
-*   Currently working in [Epam Systems](https://www.linkedin.com/company/epam-systems/)
+*   Currently study in [ProductStar](https://productstar.ru/).
 
 ## 🛠 Technical Stack
 *   Java/Kotlin/Groovy/COBOL languages
