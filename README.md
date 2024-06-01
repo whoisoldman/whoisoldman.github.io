@@ -19,7 +19,7 @@ I have excellent experience (over 25 years) in marketing and enterprise developm
 ### Now my status is: student of the Python course-developer (Level: &#x1f535; JUNIOR).
 ### My statistics:
 <p align='center'>
-   <a href="https://github-readme-stats.vercel.app/api?username=whoisoldman&show_icons=true&count_private=true"><img 
+   <a href="https://github-readme-stats.vercel.app/api?username=whoisoldman&show_icons=true&count_private=true"><img
       height=150
       src="https://github-readme-stats.vercel.app/api?username=whoisoldman&show_icons=true&count_private=true"/></a>
    <a href="https://github.com/romankh3/github-readme-stats"><img height=150
@@ -33,14 +33,15 @@ I have excellent experience (over 25 years) in marketing and enterprise developm
 *   Currently study in [ProductStar](https://productstar.ru/)
 
 ## 🛠 Technical Stack
-*   Python language (Level: Junior) 
+*   Python language (Level: Junior)
 *   SQL (SQLite, PostgreSQL)
 *   Git/GitHub/GitLab/GitLab CI
 *   API on Flask
 
 ### My opensource projects
 
-*   Coming soon ...
+*   GitHub [analyze_clipboard_text](https://github.com/whoisoldman/analyze_clipboard_text.git)
+*   Coming soon more ...
 
 <p align='center'>
    <a href="https://www.linkedin.com/in/soundbloqs/">
