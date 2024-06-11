@@ -41,6 +41,7 @@ I have excellent experience (over 25 years) in marketing and enterprise developm
 ### My opensource projects
 
 *   GitHub [analyze_clipboard_text](https://github.com/whoisoldman/analyze_clipboard_text.git)
+*   GitHub | Learning project | [api_flask_calendar](https://github.com/whoisoldman/api_flask_calendar.git)
 *   Coming soon more ...
 
 <p align='center'>
