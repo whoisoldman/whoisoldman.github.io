@@ -16,7 +16,7 @@ Here are some ideas to get you started:
 # Hi, i'm Mr.OLDMAN 👋
 I have excellent experience (over 25 years) in marketing and enterprise development management. He went from a simple manager to Director of Development and Marketing of a large international investment holding company. In general, he worked on creating a high-margin business with a vertically integrated management structure. But this is in a previous life ...
 
-### Now my status is: student of the Python course-developer (Level: &#x1f535; JUNIOR).
+### Now my status is: student of the Python course-developer in [ProductStar](https://productstar.ru/).
 ### My statistics:
 <p align='center'>
    <a href="https://github-readme-stats.vercel.app/api?username=whoisoldman&show_icons=true&count_private=true"><img
@@ -27,10 +27,9 @@ I have excellent experience (over 25 years) in marketing and enterprise developm
 </p>
 
 ### Key points
-*   owner of [SoundBloqs Community](https://soundbloqs.com/) <!-- and [Template Repository](https://github.com/template-repository) organizations.-->
-*   owner of [TrustMoney.UK](https://trustmoney.uk/) - online Project manager of global private consulting Club (world transfers, trading, M0-M1 funds, VISA.NET, investing solution, energy, gold, food, blockchain and cryptocurrencies and more ...)
+*   Pet priject: [SoundBloqs Community](https://soundbloqs.com/) <!-- and [Template Repository](https://github.com/template-repository) organizations.-->
+*   Pet priject: [TrustMoney.UK](https://trustmoney.uk/) - online Project manager of global private consulting Club (world transfers, trading, M0-M1 funds, VISA.NET, investing solution, energy, gold, food, blockchain and cryptocurrencies and more ...)
 *   Write posts about software development, music, art in its general sense and, of course, about talented people who make our world beautiful!
-*   Currently study in [ProductStar](https://productstar.ru/)
 
 ## 🛠 Technical Stack
 *   Python language (Level: Junior)
