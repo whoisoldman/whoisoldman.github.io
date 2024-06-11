@@ -27,15 +27,15 @@ I have excellent experience in marketing and enterprise development management. 
 </p>
 
 ### Key points
-*   Pet priject: [SoundBloqs Community](https://soundbloqs.com/) <!-- and [Template Repository](https://github.com/template-repository) organizations.-->
-*   Pet priject: [TrustMoney.UK](https://trustmoney.uk/) - online Project manager of global private consulting Club (world transfers, trading, M0-M1 funds, VISA.NET, investing solution, energy, gold, food, blockchain and cryptocurrencies and more ...)
+*   Pet project: [SoundBloqs Community](https://soundbloqs.com/) <!-- and [Template Repository](https://github.com/template-repository) organizations.-->
+*   Pet project: [TrustMoney.UK](https://trustmoney.uk/) - online Project manager of global private consulting Club (world transfers, trading, M0-M1 funds, VISA.NET, investing solution, energy, gold, food, blockchain and cryptocurrencies and more ...)
 *   Write posts about software development, music, art in its general sense and, of course, about talented people who make our world beautiful!
 
 ## 🛠 Technical Stack
-*   Python language (Level: Junior)
+*   Python3+
 *   SQL (SQLite, PostgreSQL)
 *   Git/GitHub/GitLab/GitLab CI
-*   API on Flask
+*   API
 
 ### My opensource projects
 
