@@ -28,7 +28,7 @@ I have excellent experience in marketing and enterprise development management. 
 
 ### Key points
 *   Pet project: [SoundBloqs Community](https://soundbloqs.com/) <!-- and [Template Repository](https://github.com/template-repository) organizations.-->
-*   Pet project: [TrustMoney.UK](https://trustmoney.uk/) - online Project manager of global private consulting Club (world transfers, trading, M0-M1 funds, VISA.NET, investing solution, energy, gold, food, blockchain and cryptocurrencies and more ...)
+*   Partnership project: [TrustMoney.UK](https://trustmoney.uk/) - online Project manager of global private consulting Club (world transfers, trading, M0-M1 funds, VISA.NET, investing solution, energy, gold, food, blockchain and cryptocurrencies and more ...)
 *   Write posts about software development, music, art in its general sense and, of course, about talented people who make our world beautiful!
 
 ## 🛠 Technical Stack
@@ -39,8 +39,8 @@ I have excellent experience in marketing and enterprise development management. 
 
 ### My opensource projects
 
-*   GitHub [analyze_clipboard_text](https://github.com/whoisoldman/analyze_clipboard_text.git)
-*   GitHub | Learning project | [api_flask_calendar](https://github.com/whoisoldman/api_flask_calendar.git)
+*   GitHub: [analyze_clipboard_text](https://github.com/whoisoldman/analyze_clipboard_text.git)
+*   ProductStar: Learning project | [api_flask_calendar](https://github.com/whoisoldman/api_flask_calendar.git)
 *   Coming soon more ...
 
 <p align='center'>
