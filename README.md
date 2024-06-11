@@ -40,7 +40,7 @@ I have excellent experience in marketing and enterprise development management. 
 ### My opensource projects
 
 *   GitHub: [analyze_clipboard_text](https://github.com/whoisoldman/analyze_clipboard_text.git)
-*   ProductStar: Learning project | [api_flask_calendar](https://github.com/whoisoldman/api_flask_calendar.git)
+*   ProductStar: Learning project [api_flask_calendar](https://github.com/whoisoldman/api_flask_calendar.git)
 *   Coming soon more ...
 
 <p align='center'>
