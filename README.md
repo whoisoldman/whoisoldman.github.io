@@ -41,6 +41,7 @@ I have excellent experience in marketing and enterprise development management. 
 
 *   Testing project: [analyze_clipboard_text](https://github.com/whoisoldman/analyze_clipboard_text.git)
 *   Learning project: [api_flask_calendar](https://github.com/whoisoldman/api_flask_calendar.git)
+*   Learning project: [abstraction_composition_coupling_cohesion](https://github.com/whoisoldman/abstraction_composition_coupling_cohesion.git)
 *   Coming soon more ...
 
 <p align='center'>
