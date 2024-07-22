@@ -35,7 +35,8 @@ I have excellent experience in marketing and enterprise development management. 
 *   Python3+
 *   SQL (SQLite, PostgreSQL)
 *   Git/GitHub/GitLab/GitLab CI
-*   API
+*   REST API Flask
+*   SQLAlchemy
 
 ### My opensource projects
 
