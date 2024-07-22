@@ -44,6 +44,7 @@ I have excellent experience in marketing and enterprise development management. 
 *   Learning project: [abstraction_composition_coupling_cohesion](https://github.com/whoisoldman/abstraction_composition_coupling_cohesion.git)
 *   Learning project: [ps_learning_flask_sqlalchemy](https://gitlab.com/ps_learning/ps_learning_flask_sqlalchemy.git)
 *   Learning project: [ps_learning_python_rest_api_eshop](https://gitlab.com/ps_learning/ps-learning-python-rest-api-eshop.git)
+*   Learning project: [ps_learning_bookstore](https://gitlab.com/ps_learning/ps_learning_bookstore.git)
 *   Coming soon more ...
 
 <p align='center'>
