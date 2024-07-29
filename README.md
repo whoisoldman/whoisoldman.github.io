@@ -33,10 +33,11 @@ I have excellent experience in marketing and enterprise development management. 
 
 ## 🛠 Technical Stack
 *   Python3+
-*   SQL (SQLite, PostgreSQL)
+*   SQL (SQLite, PostgreSQL, SQLAlchemy)
 *   Git/GitHub/GitLab/GitLab CI
 *   REST API Flask
-*   SQLAlchemy
+*   Django
+*   HTML, XML, AJAX 
 
 ### My opensource projects
 
