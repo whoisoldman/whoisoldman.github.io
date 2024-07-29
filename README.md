@@ -37,7 +37,7 @@ I have excellent experience in marketing and enterprise development management. 
 *   Git/GitHub/GitLab/GitLab CI
 *   REST API Flask
 *   Django
-*   HTML, XML, AJAX 
+*   JSON, XML, AJAX
 
 ### My opensource projects
 
