@@ -34,7 +34,7 @@ I have excellent experience in marketing and enterprise development management. 
 
 ### Key points
 *   Pet project: [SoundBloqs Community](https://soundbloqs.com/) - creation of WEB resource of the Community (the whole range of works) <!-- and [Template Repository](https://github.com/template-repository) organizations.-->
-*   Partnership project: [TrustMoney.Club](https://trustmoney.club/) - creation of WEB resource of the Community (the whole range of works)
+*   Partnership project: [TrustMoney.Club](https://trustmoney.club/) - creation of Bot resource for the Club (the whole range of works)
 *   Partnership project: [Telegram Bot for TrustMoney.Club](https://t.me/tmclubinfo_bot/) - creation of Bot resource for the Club (the whole range of works)
 *   Partnership project: [TrustMoney.UK](https://trustmoney.uk/) - online Project manager of global private consulting Club (world transfers, trading, M0-M1 funds, VISA.NET, investing solution, energy, gold, food, blockchain and cryptocurrencies and more ...)
 *   Write posts about software development, music, art in its general sense and, of course, about talented people who make our world beautiful!
