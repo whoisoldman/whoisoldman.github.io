@@ -20,8 +20,8 @@ I have excellent experience in marketing and enterprise development management. 
 *   Director, Sound engineer in [Russian Institute of Theatre Arts (ГИТИС)](https://gitis.net/en/)
 *   International business, Economist in [Russian State University for the Humanities (РГГУ)](https://www.rsuh.ru/en/)
 *   Manager of Marketplases in [Yandex.Practicum](https://practicum.yandex.ru/)
-*   [now] Python Developer in [ProductStar](https://productstar.ru/)
-*   [now] Data Analyst in [Financial University under the Government of the Russian Federation](https://en.fa.ru/)
+*   🌱 [now] Python Developer in [ProductStar](https://productstar.ru/)
+*   🌱 [now] Data Analyst in [Financial University under the Government of the Russian Federation](https://en.fa.ru/)
 
 ### My statistics:
 <p align='center'>
