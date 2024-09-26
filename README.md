@@ -61,7 +61,7 @@ I have excellent experience in marketing and enterprise development management. 
 *   Microsoft Fabric (Power BI)
 *   DAX
 *   SQL, Postgres
-*   Git/GitHub/
+*   API
 
 ### My analytical cases:
 
