@@ -14,7 +14,8 @@ Here are some ideas to get you started:
 -->
 
 # Hi, i'm Alex 👋
-I have excellent experience in marketing and enterprise development management. He went from a simple manager to Director of Development and Marketing of a large international investment holding company. In general, he worked on creating a high-margin business with a vertically integrated management structure. But this is in a previous life ...
+I have extensive experience in marketing and business development. I started as an ordinary clerk and worked my way up to become the director of development and marketing for a large international investment holding company. During this time, I was responsible for creating a highly profitable business with a vertically integrated management structure.
+However, that was in a previous role. Currently, I am focused on learning new skills related to internet business, online presence, analytics, and programming. I am also learning query languages and analytical functions.
 
 ### Education:
 *   Director, Sound engineer in [Russian Institute of Theatre Arts (ГИТИС)](https://gitis.net/en/)
