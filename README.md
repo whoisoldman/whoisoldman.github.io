@@ -36,17 +36,28 @@ I have excellent experience in marketing and enterprise development management. 
 *   SQL (SQLite, PostgreSQL, SQLAlchemy)
 *   Git/GitHub/GitLab/GitLab CI
 *   REST API, Postman
-*   Flask, Django
+*   Flask, Django REST API
 *   JSON, XML, AJAX
 
-### My opensource projects
+### My opensource developer's projects:
 
 *   Testing project: [analyze_clipboard_text](https://github.com/whoisoldman/analyze_clipboard_text.git)
-*   Learning project: [api_flask_calendar](https://github.com/whoisoldman/api_flask_calendar.git)
-*   Learning project: [abstraction_composition_coupling_cohesion](https://github.com/whoisoldman/abstraction_composition_coupling_cohesion.git)
-*   Learning project: [ps_learning_flask_sqlalchemy](https://gitlab.com/ps_learning/ps_learning_flask_sqlalchemy.git)
-*   Learning project: [ps_learning_python_rest_api_eshop](https://gitlab.com/ps_learning/ps-learning-python-rest-api-eshop.git)
-*   Learning project: [ps_learning_bookstore](https://gitlab.com/ps_learning/ps_learning_bookstore.git)
+*   🌱 Learning project: [api_flask_calendar](https://github.com/whoisoldman/api_flask_calendar.git)
+*   🌱 Learning project: [abstraction_composition_coupling_cohesion](https://github.com/whoisoldman/abstraction_composition_coupling_cohesion.git)
+*   🌱 Learning project: [ps_learning_flask_sqlalchemy](https://gitlab.com/ps_learning/ps_learning_flask_sqlalchemy.git)
+*   🌱 Learning project: [ps_learning_python_rest_api_eshop](https://gitlab.com/ps_learning/ps-learning-python-rest-api-eshop.git)
+*   🌱 Learning project: [ps_learning_bookstore](https://gitlab.com/ps_learning/ps_learning_bookstore.git)
+*   Coming soon more ...
+
+## 🔭 Analytical Stack:
+*   Micrisoft Fabric (Power BI)
+*   DAX
+*   SQL, Postgres
+*   Git/GitHub/
+
+### My analytical cases:
+
+*   [Analytical cases](https://drive.google.com/drive/folders/1JoBl2rzQxHlUBRNQ2hr88FD4KPltbV8x?usp=sharing)
 *   Coming soon more ...
 
 <p align='center'>
