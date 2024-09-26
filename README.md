@@ -76,7 +76,7 @@ I have excellent experience in marketing and enterprise development management. 
        <img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white"/>
    </a>
 <p align='center'>
-   How to reach me: <a href='mailto:a.grey@soundbloqs.com'>Alex's Email</a>
+   How to reach me: <a href='mailto:github@soundbloqs.com'>Alex's Email</a>
 </p>
 <p align="center">
    ... just stay Humane!
