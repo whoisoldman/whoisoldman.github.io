@@ -30,7 +30,8 @@ I have excellent experience in marketing and enterprise development management. 
 </p>
 
 ### Key points
-*   Pet project: [SoundBloqs Community](https://soundbloqs.com/) <!-- and [Template Repository](https://github.com/template-repository) organizations.-->
+*   Pet project: [SoundBloqs Community](https://soundbloqs.com/) - creation of WEB resource of the Community (the whole range of works) <!-- and [Template Repository](https://github.com/template-repository) organizations.-->
+*   Partnership project: [TrustMoney.Club](https://trustmoney.club/) - creation of WEB resource of the Community (the whole range of works)
 *   Partnership project: [TrustMoney.UK](https://trustmoney.uk/) - online Project manager of global private consulting Club (world transfers, trading, M0-M1 funds, VISA.NET, investing solution, energy, gold, food, blockchain and cryptocurrencies and more ...)
 *   Write posts about software development, music, art in its general sense and, of course, about talented people who make our world beautiful!
 
@@ -53,7 +54,7 @@ I have excellent experience in marketing and enterprise development management. 
 *   Coming soon more ...
 
 ## 🔭 Analytical Stack:
-*   Micrisoft Fabric (Power BI)
+*   Microsoft Fabric (Power BI)
 *   DAX
 *   SQL, Postgres
 *   Git/GitHub/
