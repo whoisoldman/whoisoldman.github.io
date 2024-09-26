@@ -16,7 +16,10 @@ Here are some ideas to get you started:
 # Hi, i'm Mr.OLDMAN 👋
 I have excellent experience in marketing and enterprise development management. He went from a simple manager to Director of Development and Marketing of a large international investment holding company. In general, he worked on creating a high-margin business with a vertically integrated management structure. But this is in a previous life ...
 
-### Now my status is: student of the:
+### Education:
+*   Director, Sound engineer in [Russian Institute of Theatre Arts (ГИТИС)](https://gitis.net/en/)
+*   International business, Economist in [Russian State University for the Humanities (РГГУ)](https://www.rsuh.ru/en/)
+*   Manager of Marketplases in [Yandex.Practicum](https://practicum.yandex.ru/)
 *   Python developer in [ProductStar](https://productstar.ru/)
 *   Data Analyst in [Financial University under the Government of the Russian Federation](https://en.fa.ru/)
 
