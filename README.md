@@ -19,11 +19,11 @@ I have extensive experience in marketing and business development. I started as 
 However, that was in a previous role. Currently, I am focused on learning new skills related to internet business, online presence, analytics, and programming. I am also learning query languages and analytical functions.
 
 ### Education:
-*   Director, Sound engineer in [Russian Institute of Theatre Arts (ГИТИС)](https://gitis.net/en/)
-*   International business, Economist in [Russian State University for the Humanities (РГГУ)](https://www.rsuh.ru/en/)
-*   Manager of Marketplases in [Yandex.Practicum](https://practicum.yandex.ru/)
+*   [2000] Director, Sound engineer in [Russian Institute of Theatre Arts (ГИТИС)](https://gitis.net/en/)
+*   [2004] International business, Economist in [Russian State University for the Humanities (РГГУ)](https://www.rsuh.ru/en/)
+*   [2023] Manager of Marketplases in [Yandex.Practicum](https://practicum.yandex.ru/)
+*   [2024] Data Analyst in [Financial University under the Government of the Russian Federation](https://en.fa.ru/)
 *   🌱 [now] Python Developer in [ProductStar](https://productstar.ru/)
-*   🌱 [now] Data Analyst in [Financial University under the Government of the Russian Federation](https://en.fa.ru/)
 
 ### My statistics:
 <p align='center'>
