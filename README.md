@@ -58,6 +58,7 @@ However, that was in a previous role. Currently, I am focused on learning new sk
 *   🌱 Learning project: [ps_learning_python_rest_api_eshop](https://gitlab.com/ps_learning/ps-learning-python-rest-api-eshop.git)
 *   🌱 Learning project: [ps_learning_bookstore](https://gitlab.com/ps_learning/ps_learning_bookstore.git)
 *   🌱 Learning project: [consumer_supply](https://github.com/whoisoldman/consumer_supply.git)
+*   🌱 Learning project: [django_orm](https://github.com/whoisoldman/django_orm.git)
 *   Coming soon more ...
 
 ## 🔭 Analytical Stack:
