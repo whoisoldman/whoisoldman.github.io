@@ -80,7 +80,7 @@ However, that was in a previous role. Currently, I am focused on learning new sk
        <img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white"/>
    </a>
 <p align='center'>
-   How to reach me: <a href='mailto:github@soundbloqs.com'>Alex's Email</a>
+   How to reach me: <a href='mailto:github@trustmoney.uk'>Alex's Email</a>
 </p>
 <p align="center">
    ... just stay Humane!
