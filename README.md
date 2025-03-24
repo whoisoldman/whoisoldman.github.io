@@ -59,7 +59,8 @@ However, that was in a previous role. Currently, I am focused on learning new sk
 *   🌱 Learning project: [ps_learning_bookstore](https://gitlab.com/ps_learning/ps_learning_bookstore.git)
 *   🌱 Learning project: [consumer_supply](https://github.com/whoisoldman/consumer_supply.git)
 *   🌱 Learning project: [django_orm](https://github.com/whoisoldman/django_orm.git)
-*   🌱 Learning project: [oauth_project]( https://github.com/whoisoldman/oauth_project)
+*   🌱 Learning project: [oauth_project](https://github.com/whoisoldman/oauth_project)
+*   🌱 Learning project: [ruff_fixes](https://github.com/whoisoldman/Architecture-and-backend-homework/tree/ruff-fixes)
 *   Coming soon more ...
 
 ## 🔭 Analytical Stack:
