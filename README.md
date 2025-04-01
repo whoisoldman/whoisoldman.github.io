@@ -46,7 +46,7 @@ However, that was in a previous role. Currently, I am focused on learning new sk
 *   SQL (SQLite, PostgreSQL, SQLAlchemy)
 *   Git, CI/CD
 *   REST API, Postman
-*   Flask, Django REST API
+*   Flask, Django
 *   JSON, XML, AJAX
 
 ### My opensource developer's projects:
