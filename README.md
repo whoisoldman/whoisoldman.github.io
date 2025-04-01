@@ -67,7 +67,7 @@ However, that was in a previous role. Currently, I am focused on learning new sk
 ## 🔭 Analytical Stack:
 *   Microsoft Fabric (Power BI)
 *   DAX
-*   SQL, Postgres
+*   SQL
 
 ### My analytical cases:
 
