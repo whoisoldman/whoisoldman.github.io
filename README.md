@@ -48,6 +48,7 @@ However, that was in a previous role. Currently, I am focused on learning new sk
 *   REST API, Postman
 *   Flask, Django
 *   JSON, XML, AJAX
+*   HTML, CSS. JavaScript
 
 ### My opensource developer's projects:
 
