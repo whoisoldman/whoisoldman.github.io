@@ -44,7 +44,7 @@ However, that was in a previous role. Currently, I am focused on learning new sk
 ## 🛠 Technical Stack
 *   Python3+
 *   SQL (SQLite, PostgreSQL, SQLAlchemy)
-*   Git/GitHub/GitLab/GitLab CI
+*   Git, CI/CD
 *   REST API, Postman
 *   Flask, Django REST API
 *   JSON, XML, AJAX
