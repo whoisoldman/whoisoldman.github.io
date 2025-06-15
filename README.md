@@ -62,6 +62,8 @@ However, that was in a previous role. Currently, I am focused on learning new sk
 *   🌱 Learning project: [django_orm](https://github.com/whoisoldman/django_orm.git)
 *   🌱 Learning project: [oauth_project](https://github.com/whoisoldman/oauth_project)
 *   🌱 Learning project: [ruff_fixes](https://github.com/whoisoldman/Architecture-and-backend-homework/tree/ruff-fixes)
+*   🌱 Learning project: [js_countdown](https://gdrhwf.csb.app/)
+*   🌱 Learning project: [js_taskmanager_linkedlist](https://xwwjqs.csb.app/)
 *   Coming soon more ...
 
 ## 🔭 Analytical Stack:
