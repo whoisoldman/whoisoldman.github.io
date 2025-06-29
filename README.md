@@ -64,6 +64,7 @@ However, that was in a previous role. Currently, I am focused on learning new sk
 *   🌱 Learning project: [ruff_fixes](https://github.com/whoisoldman/Architecture-and-backend-homework/tree/ruff-fixes)
 *   🌱 Learning project: [js_countdown](https://gdrhwf.csb.app/)
 *   🌱 Learning project: [js_taskmanager_linkedlist](https://xwwjqs.csb.app/)
+*   🌱 Learning project: [react_dice](https://github.com/whoisoldman/dice_react_app)
 *   Coming soon more ...
 
 ## 🔭 Analytical Stack:
