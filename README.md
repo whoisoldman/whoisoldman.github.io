@@ -74,7 +74,7 @@ However, that was in a previous role. Currently, I am focused on learning new sk
 
 ### My analytical cases:
 
-*   [Analytical cases](https://drive.google.com/drive/folders/1JoBl2rzQxHlUBRNQ2hr88FD4KPltbV8x?usp=sharing)
+*   🔭 [Analytical cases](https://drive.google.com/drive/folders/1JoBl2rzQxHlUBRNQ2hr88FD4KPltbV8x?usp=sharing)
 *   Coming soon more ...
 
 <p align='center'>
