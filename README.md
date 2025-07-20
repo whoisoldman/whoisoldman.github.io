@@ -45,8 +45,9 @@ However, that was in a previous role. Currently, I am focused on learning new sk
 *   Python3+
 *   SQL (SQLite, PostgreSQL, SQLAlchemy)
 *   Git, CI/CD
-*   REST API, Postman
+*   API, REST API (Postman)
 *   Flask, Django
+*   React
 *   JSON, XML, AJAX
 *   HTML, CSS, JavaScript
 
