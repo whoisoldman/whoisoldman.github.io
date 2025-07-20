@@ -42,14 +42,104 @@ However, that was in a previous role. Currently, I am focused on learning new sk
 *   Write posts about software development, music, art in its general sense and, of course, about talented people who make our world beautiful!
 
 ## 🛠 Technical Stack
-*   Python3+
-*   SQL (SQLite, PostgreSQL, SQLAlchemy)
-*   Git, CI/CD
-*   API, REST API (Postman)
-*   Flask, Django
-*   React
-*   JSON, XML, AJAX
-*   HTML, CSS, JavaScript
+
+### 🔧 Programming Languages & Core Technologies
+- **Python 3+**
+- **JavaScript (ES6+)**
+- HTML5
+- CSS3
+- Bash (macOS Terminal, Oh My Zsh)
+
+---
+
+### 🧩 Frameworks & Libraries
+
+#### Backend
+- **Django** (ORM, Admin, Middleware, Migrations, DRF)
+- **Flask**
+- **SQLAlchemy**
+- **Gunicorn**
+
+#### Frontend
+- **React** (with Vite)
+- **Tailwind CSS**
+- **Framer Motion**
+- **ShadCN/UI**
+- **Lucide Icons**
+- **AJAX / Fetch API**
+
+---
+
+### 🗄️ Databases & ORM
+- **PostgreSQL**
+- SQLite
+- SQLAlchemy ORM
+- Django ORM
+
+---
+
+### 🔗 API Development & Data Formats
+- REST API (development & consumption)
+- **Postman** (testing & documentation)
+- **JSON, XML** (data exchange formats)
+
+---
+
+### ⚙️ DevOps / CI-CD / Infrastructure
+- **Git** (GitHub, GitLab)
+- **GitLab CI/CD** (pipelines & VDS auto-deploy)
+- **Docker & Docker Compose**
+- **Nginx** (static handling, proxying)
+- **.env** configuration
+- **RDP via Parallels Desktop (macOS)**
+
+---
+
+### 🧪 Testing & Debugging
+- **Postman** (manual API testing)
+- Django Test Framework (basics)
+- Python `pdb`, logging tools
+
+---
+
+### 🧰 Tooling & Developer Environment
+- **macOS 12** (primary dev environment)
+- **VSCode**
+- **Parallels Desktop**
+- **Homebrew**
+
+---
+
+### 🔍 Code Quality & Automation
+- **Prettier**
+- **ESLint**
+- **Husky** (Git Hooks)
+- **Ruff** (Python linter)
+- **Black** (Python formatter)
+
+---
+
+### 🧑‍💻 Areas of Focus
+- Web applications and REST API development
+- Data visualization using React & Tailwind
+- Automation and CI/CD pipelines
+- Relational databases and ORM
+- VDS deployment with GitLab CI/CD
+- SMM & SEO integrations using Python and JS
+- Internal web apps for project & order tracking
+- REST integration with external services
+
+---
+
+### 🧭 Bonus (Optional Additions)
+- Pytest (testing)
+- Celery + Redis (background jobs)
+- Alembic (migrations for SQLAlchemy)
+- React Router (routing)
+- Zustand or Redux (state management)
+- FastAPI (alternative to Flask)
+- Poetry or `uv` (dependency management)
+- Sentry / Loguru (logging and monitoring)
 
 ### My opensource developer's projects:
 
