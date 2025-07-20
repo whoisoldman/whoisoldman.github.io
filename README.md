@@ -1,45 +1,40 @@
-<!--
-**whoisoldman/whoisoldman.github.io** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+# Hi, I'm Alex 👋
 
-Here are some ideas to get you started:
+I have extensive experience in marketing and business development. I started as a regular clerk and grew into the role of Development and Marketing Director at a large international investment holding. During that time, I successfully built a highly profitable business with a vertically integrated management structure.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+However, that was my previous chapter. I am now focused on acquiring new skills related to internet business, web presence, data analytics, and software development. I am also actively learning query languages and analytical functions.
 
-# Hi, i'm Alex 👋
-I have extensive experience in marketing and business development. I started as an ordinary clerk and worked my way up to become the director of development and marketing for a large international investment holding company. During this time, I was responsible for creating a highly profitable business with a vertically integrated management structure.
+---
 
-However, that was in a previous role. Currently, I am focused on learning new skills related to internet business, online presence, analytics, and programming. I am also learning query languages and analytical functions.
+### 🎓 Education:
+* [2000] Director, Sound Engineer — [Russian Academy of Theatre Arts (GITIS)](https://gitis.net/en/)
+* [2004] International Business, Economist — [Russian State University for the Humanities (RSUH)](https://www.rsuh.ru/en/)
+* [2023] Marketplace Manager — [Yandex Practicum](https://practicum.yandex.ru/)
+* [2024] Data Analyst — [Financial University under the Government of the Russian Federation](https://en.fa.ru/)
+* 🌱 [Current] Python Developer — [ProductStar by RBC](https://productstar.ru/)
 
-### Education:
-*   [2000] Director, Sound engineer in [Russian Academy of Theatre Arts (РАТИ-ГИТИС)](https://gitis.net/en/)
-*   [2004] International business, Economist in [Russian State University for the Humanities (РГГУ)](https://www.rsuh.ru/en/)
-*   [2023] Manager of Marketplaces in [Yandex](https://practicum.yandex.ru/)
-*   [2024] Data Analyst in [Financial University under the Government of the Russian Federation](https://en.fa.ru/)
-*   🌱 [now] Python Developer in [ProductStar by RBC (РБК-ПродуктСтар)](https://productstar.ru/)
+---
 
-### My statistics:
+### 📊 GitHub Stats:
 <p align='center'>
-   <a href="https://github-readme-stats.vercel.app/api?username=whoisoldman&show_icons=true&count_private=true"><img
-      height=150
-      src="https://github-readme-stats.vercel.app/api?username=whoisoldman&show_icons=true&count_private=true"/></a>
-   <a href="https://github.com/romankh3/github-readme-stats"><img height=150
-   src="https://github-readme-stats.vercel.app/api/top-langs/?username=whoisoldman&layout=compact"/></a>
+   <a href="https://github-readme-stats.vercel.app/api?username=whoisoldman&show_icons=true&count_private=true">
+      <img height=150 src="https://github-readme-stats.vercel.app/api?username=whoisoldman&show_icons=true&count_private=true"/>
+   </a>
+   <a href="https://github.com/romankh3/github-readme-stats">
+      <img height=150 src="https://github-readme-stats.vercel.app/api/top-langs/?username=whoisoldman&layout=compact"/>
+   </a>
 </p>
 
-### Key points
-*   Pet project: [SoundBloqs Community](https://soundbloqs.com/) - creation of WEB resource of the Community <!-- and [Template Repository](https://github.com/template-repository) organizations.-->
-*   Finance: [TrustMoney.Club](https://trustmoney.club/) - creation of electronic representative office for the Club
-*   Finance: [Telegram Bot for TrustMoney.Club](https://t.me/tmclubinfo_bot/) - creation of Bot resource for the Club
-*   Finance: [TrustMoney.UK](https://trustmoney.uk/) - online Project manager of global private consulting Club (world transfers, trading, M0-M1 funds, VISA.NET, investing solution, energy, gold, food, blockchain and cryptocurrencies and more ...)
-*   Write posts about software development, music, art in its general sense and, of course, about talented people who make our world beautiful!
+---
+
+### 🗝 Key Projects
+* 🎧 Pet Project: [SoundBloqs Community](https://soundbloqs.com/) — community web platform
+* 💰 Finance: [TrustMoney.Club](https://trustmoney.club/) — digital presence for the Club
+* 🤖 Finance: [Telegram Bot for TrustMoney.Club](https://t.me/tmclubinfo_bot/) — Telegram resource
+* 🌍 Finance: [TrustMoney.UK](https://trustmoney.uk/) — global consulting project (money transfers, trading, M0-M1, VISA.NET, investments, energy, gold, food, blockchain, crypto, and more)
+* ✍️ Writing about software development, music, art, and the people who make the world a better place
+
+---
 
 ## 🛠 Technical Stack
 
@@ -79,31 +74,31 @@ However, that was in a previous role. Currently, I am focused on learning new sk
 ---
 
 ### 🔗 API Development & Data Formats
-- REST API (development & consumption)
+- REST API (development & integration)
 - **Postman** (testing & documentation)
-- **JSON, XML** (data exchange formats)
+- **JSON, XML** (data formats)
 
 ---
 
 ### ⚙️ DevOps / CI-CD / Infrastructure
 - **Git** (GitHub, GitLab)
-- **GitLab CI/CD** (pipelines & VDS auto-deploy)
+- **GitLab CI/CD** (pipelines & VDS deployment)
 - **Docker & Docker Compose**
-- **Nginx** (static handling, proxying)
+- **Nginx** (static content, proxying)
 - **.env** configuration
-- **RDP via Parallels Desktop (macOS)**
+- **RDP** via Parallels Desktop (macOS)
 
 ---
 
 ### 🧪 Testing & Debugging
 - **Postman** (manual API testing)
-- Django Test Framework (basics)
+- Django Testing Framework (basic level)
 - Python `pdb`, logging tools
 
 ---
 
 ### 🧰 Tooling & Developer Environment
-- **macOS 12** (primary dev environment)
+- **macOS 12** (primary environment)
 - **VSCode**
 - **Parallels Desktop**
 - **Homebrew**
@@ -120,63 +115,64 @@ However, that was in a previous role. Currently, I am focused on learning new sk
 ---
 
 ### 🧑‍💻 Areas of Focus
-- Web applications and REST API development
-- Data visualization using React & Tailwind
-- Automation and CI/CD pipelines
+- Web app and REST API development
+- Data visualization with React & Tailwind
+- Workflow automation and CI/CD pipelines
 - Relational databases and ORM
-- VDS deployment with GitLab CI/CD
+- Deployment to VDS via GitLab CI/CD
 - SMM & SEO integrations using Python and JS
-- Internal web apps for project & order tracking
-- REST integration with external services
+- Internal apps for order/project tracking
+- Integration with third-party REST APIs
 
 ---
 
 ### 🧭 Bonus (Optional Additions)
 - Pytest (testing)
-- Celery + Redis (background jobs)
-- Alembic (migrations for SQLAlchemy)
+- Celery + Redis (background tasks)
+- Alembic (SQLAlchemy migrations)
 - React Router (routing)
-- Zustand or Redux (state management)
+- Zustand / Redux (state management)
 - FastAPI (alternative to Flask)
-- Poetry or `uv` (dependency management)
-- Sentry / Loguru (logging and monitoring)
+- Poetry / `uv` (dependency management)
+- Sentry / Loguru (monitoring and logging)
 
-### My opensource developer's projects:
+---
 
-*   Testing project: [analyze_clipboard_text](https://github.com/whoisoldman/analyze_clipboard_text.git)
-*   🌱 Learning project: [api_flask_calendar](https://github.com/whoisoldman/api_flask_calendar.git)
-*   🌱 Learning project: [abstraction_composition_coupling_cohesion](https://github.com/whoisoldman/abstraction_composition_coupling_cohesion.git)
-*   🌱 Learning project: [flask_sqlalchemy](https://gitlab.com/ps_learning/ps_learning_flask_sqlalchemy.git)
-*   🌱 Learning project: [python_rest_api_eshop](https://gitlab.com/ps_learning/ps-learning-python-rest-api-eshop.git)
-*   🌱 Learning project: [bookstore](https://gitlab.com/ps_learning/ps_learning_bookstore.git)
-*   🌱 Learning project: [consumer_supply](https://github.com/whoisoldman/consumer_supply.git)
-*   🌱 Learning project: [django_orm](https://github.com/whoisoldman/django_orm.git)
-*   🌱 Learning project: [oauth_project](https://github.com/whoisoldman/oauth_project)
-*   🌱 Learning project: [ruff_fixes](https://github.com/whoisoldman/Architecture-and-backend-homework/tree/ruff-fixes)
-*   🌱 Learning project: [js_countdown](https://gdrhwf.csb.app/)
-*   🌱 Learning project: [js_taskmanager_linkedlist](https://xwwjqs.csb.app/)
-*   🌱 Learning project: [react_dice](https://github.com/whoisoldman/dice_react_app)
-*   Coming soon more ...
+### 🌱 Open Source Projects
 
-## 🔭 Analytical Stack:
-*   Microsoft Fabric (Power BI)
-*   DAX
+* 🔬 [analyze_clipboard_text](https://github.com/whoisoldman/analyze_clipboard_text.git)
+* 🧭 [api_flask_calendar](https://github.com/whoisoldman/api_flask_calendar.git)
+* 🧱 [abstraction_composition_coupling_cohesion](https://github.com/whoisoldman/abstraction_composition_coupling_cohesion.git)
+* 🔧 [flask_sqlalchemy](https://gitlab.com/ps_learning/ps_learning_flask_sqlalchemy.git)
+* 🛒 [python_rest_api_eshop](https://gitlab.com/ps_learning/ps-learning-python-rest-api-eshop.git)
+* 📚 [bookstore](https://gitlab.com/ps_learning/ps_learning_bookstore.git)
+* 🔄 [consumer_supply](https://github.com/whoisoldman/consumer_supply.git)
+* 🧬 [django_orm](https://github.com/whoisoldman/django_orm.git)
+* 🔐 [oauth_project](https://github.com/whoisoldman/oauth_project)
+* 🧹 [ruff_fixes](https://github.com/whoisoldman/Architecture-and-backend-homework/tree/ruff-fixes)
+* ⏳ [js_countdown](https://gdrhwf.csb.app/)
+* 📋 [js_taskmanager_linkedlist](https://xwwjqs.csb.app/)
+* 🎲 [react_dice](https://github.com/whoisoldman/dice_react_app)
+* 🛠 More coming soon...
 
-### My analytical cases:
+---
 
-*   🔭 [Analytical cases](https://drive.google.com/drive/folders/1JoBl2rzQxHlUBRNQ2hr88FD4KPltbV8x?usp=sharing)
-*   Coming soon more ...
+## 📈 Analytical Stack
+- Microsoft Fabric (Power BI)
+- DAX
+
+### 📊 My Analytical Projects
+- 🔍 [Analytical Cases](https://drive.google.com/drive/folders/1JoBl2rzQxHlUBRNQ2hr88FD4KPltbV8x?usp=sharing)
+- 📈 More coming soon...
+
+---
 
 <p align='center'>
-<!--    <a href="https://www.linkedin.com/in/soundbloqs/">
-      <img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white"/> 👯 
-   </a> -->
    <a href="https://t.me/soundbloqsfb_bot">
        <img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white"/>
    </a>
+</p>
+
 <p align='center'>
    How to reach me: <a href='mailto:it@soundbloqs.com'>Alex's Email</a>
-</p>
-<p align="center">
-   ... just stay Humane!
 </p>
