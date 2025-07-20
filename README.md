@@ -21,9 +21,9 @@ However, that was in a previous role. Currently, I am focused on learning new sk
 ### Education:
 *   [2000] Director, Sound engineer in [Russian Academy of Theatre Arts (РАТИ-ГИТИС)](https://gitis.net/en/)
 *   [2004] International business, Economist in [Russian State University for the Humanities (РГГУ)](https://www.rsuh.ru/en/)
-*   [2023] Manager of Marketplaces in [Yandex.Practicum](https://practicum.yandex.ru/)
+*   [2023] Manager of Marketplaces in [Yandex](https://practicum.yandex.ru/)
 *   [2024] Data Analyst in [Financial University under the Government of the Russian Federation](https://en.fa.ru/)
-*   🌱 [now] Python Developer in [ProductStar](https://productstar.ru/)
+*   🌱 [now] Python Developer in [ProductStar by RBC (РБК-ПродуктСтар)](https://productstar.ru/)
 
 ### My statistics:
 <p align='center'>
