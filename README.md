@@ -154,7 +154,7 @@ However, that was my previous chapter. I am now focused on acquiring new skills 
 * 📋 [js_taskmanager_linkedlist](https://xwwjqs.csb.app/)
 * 🎲 [react_dice](https://github.com/whoisoldman/dice_react_app)
 * Not finished [Transliteration *.exe-portable](https://disk.yandex.ru/d/9-9RbX51eJdwGA)
-* Not finished [EyeRelacPro *.exe-portable](https://disk.yandex.ru/d/OB48CkN19t686Q)
+* Not finished [EyeRelaxPro *.exe-portable](https://disk.yandex.ru/d/OB48CkN19t686Q)
 * 🛠 More coming soon...
 
 ---
