@@ -176,5 +176,5 @@ However, that was my previous chapter. I am now focused on acquiring new skills 
 </p>
 
 <p align='center'>
-   How to reach me: <a href='mailto:it@soundbloqs.com'>Mr.OLDMAN's Email</a>
+   How to reach me: <a href='mailto:it@trustmoney.uk'>Mr.OLDMAN's Email</a>
 </p>
