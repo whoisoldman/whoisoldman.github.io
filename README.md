@@ -170,7 +170,7 @@ However, that was my previous chapter. I am now focused on acquiring new skills 
 ---
 
 <p align='center'>
-   <a href="https://t.me/soundbloqsfb_bot"> MailBox by 
+   MailBox by <a href="https://t.me/soundbloqsfb_bot">
        <img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white"/>
    </a>
 </p>
