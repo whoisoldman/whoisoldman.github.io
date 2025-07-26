@@ -11,7 +11,7 @@ However, that was my previous chapter. I am now focused on acquiring new skills 
 * [2004] International Business, Economist — [Russian State University for the Humanities (RSUH)](https://www.rsuh.ru/en/)
 * [2023] Marketplace Manager — [Yandex Practicum](https://practicum.yandex.ru/)
 * [2024] Data Analyst — [Financial University under the Government of the Russian Federation](https://en.fa.ru/)
-* 🌱 [Current] Python Developer — [ProductStar by RBC](https://productstar.ru/)
+* 🌱 [Current] Python Developer (Fullstack, DevOps and Data Science) — [ProductStar by RBC](https://productstar.ru/)
 
 ---
 
