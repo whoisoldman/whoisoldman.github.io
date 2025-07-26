@@ -7,10 +7,10 @@ However, that was my previous chapter. I am now focused on acquiring new skills 
 ---
 
 ### 🎓 Education:
-* [2000] Director, Sound Engineer — [Russian Academy of Theatre Arts (GITIS)](https://gitis.net/en/)
-* [2004] International Business, Economist — [Russian State University for the Humanities (RSUH)](https://www.rsuh.ru/en/)
-* [2023] Marketplace Manager — [Yandex Practicum](https://practicum.yandex.ru/)
-* [2024] Data Analyst — [Financial University under the Government of the Russian Federation](https://en.fa.ru/)
+* [2000] Director, Sound Engineer (1-st higher education) — [Russian Academy of Theatre Arts (GITIS)](https://gitis.net/en/)
+* [2004] International Business, Economist (2-nd higher education) — [Russian State University for the Humanities (RSUH)](https://www.rsuh.ru/en/)
+* [2023] Marketplace Manager (advanced) — [Yandex Practicum](https://practicum.yandex.ru/)
+* [2024] Data Analyst (advanced) — [Financial University under the Government of the Russian Federation](https://en.fa.ru/)
 * 🌱 [Current] Python Developer (Fullstack, DevOps and Data Science) — [ProductStar by RBC](https://productstar.ru/)
 
 ---
