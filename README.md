@@ -98,7 +98,7 @@ However, that was my previous chapter. I am now focused on acquiring new skills 
 ---
 
 ### 🧰 Tooling & Developer Environment
-- **macOS 12**
+- **macOS**
 - **VSCode**
 - **Parallels Desktop**
 - **Homebrew**
