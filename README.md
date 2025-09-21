@@ -116,7 +116,7 @@ However, that was my previous chapter. I am now focused on acquiring new skills 
 ### 🧰 Tooling & Developer Environment
 - **macOS**
 - **VSCode**
-- **Parallels Desktop**
+- **Parallels Desktop** (VM)
 - **Homebrew**
 
 ---
