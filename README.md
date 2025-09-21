@@ -86,9 +86,9 @@ However, that was my previous chapter. I am now focused on acquiring new skills 
 
 ### 🗄️ Databases & ORM
 - **PostgreSQL**
-- SQLite
-- SQLAlchemy ORM
-- Django ORM
+- **SQLite**
+- **SQLAlchemy**
+- **Django**
 
 ---
 
@@ -188,9 +188,9 @@ However, that was my previous chapter. I am now focused on acquiring new skills 
 
 ## 📈 Analytical Stack
 
-* Microsoft Fabric (Power BI)
-* DAX
-* Measures
+- Microsoft Fabric (Power BI)
+- DAX
+- Measures
 
 ### 📊 Analytical Projects
 
