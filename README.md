@@ -61,9 +61,8 @@ However, that was my previous chapter. I am now focused on acquiring new skills 
 ### 🔧 Programming Languages & Core Technologies
 - **Python 3+**
 - **JavaScript (ES6+)**
-- HTML5
-- CSS3
-- Bash (macOS Terminal, Oh My Zsh)
+- **HTML5**
+- **CSS3**
 
 ---
 
