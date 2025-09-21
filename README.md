@@ -59,10 +59,10 @@ However, that was my previous chapter. I am now focused on acquiring new skills 
 ## 🛠 Technical Stack
 
 ### 🔧 Programming Languages & Core Technologies
-- **Python 3+**
-- **JavaScript (ES6+)**
-- **HTML5**
-- **CSS3**
+- **Python**
+- **JavaScript**
+- **HTML**
+- **CSS**
 
 ---
 
