@@ -169,7 +169,7 @@ However, that was my previous chapter. I am now focused on acquiring new skills 
 * [js_countdown](https://gdrhwf.csb.app/)
 * [js_taskmanager_linkedlist](https://xwwjqs.csb.app/)
 * [react_dice](https://github.com/whoisoldman/dice_react_app)
-* (https://github.com/whoisoldman/react_hooks_homework.git)
+* [react_custom_hooks](https://github.com/whoisoldman/react_hooks_homework.git)
 * Not finished [Transliteration *.exe-portable](https://disk.yandex.ru/d/9-9RbX51eJdwGA)
 * Not finished [EyeRelaxPro *.exe-portable](https://disk.yandex.ru/d/OB48CkN19t686Q)
 * More coming soon...
