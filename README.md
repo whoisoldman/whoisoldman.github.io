@@ -188,6 +188,7 @@ However, that was my previous chapter. I am now focused on acquiring new skills 
 ## 📈 Analytical Stack
 - Microsoft Fabric (Power BI)
 - DAX
+- Measures
 
 ### 📊 Analytical Projects
 - 🔍 [Analytical Cases](https://drive.google.com/drive/folders/1JoBl2rzQxHlUBRNQ2hr88FD4KPltbV8x?usp=sharing)
