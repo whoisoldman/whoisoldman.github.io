@@ -1,3 +1,19 @@
+<!--
+* 🔬 [text](https://link.com)
+* 🧭 [text](https://link.com)
+* 🧱 [text](https://link.com)
+* 🔧 [text](https://link.com)
+* 🛒 [text](https://link.com)
+* 📚 [text](https://link.com)
+* 🔄 [text](https://link.com)
+* 🧬 [text](https://link.com)
+* 🔐 [text](https://link.com)
+* 🧹 [text](https://link.com)
+* ⏳ [text](https://link.com)
+* 📋 [text](https://link.com)
+* 🎲 [text](https://link.com)
+* 🛠 [text](https://link.com)
+-->
 # Hi, I'm Mr.OLDMAN 👋
 
 I have extensive experience in marketing and business development. I started as a regular clerk and grew into the role of Development and Marketing Director at a large international investment holding. During that time, I successfully built a highly profitable business with a vertically integrated management structure.
@@ -140,22 +156,23 @@ However, that was my previous chapter. I am now focused on acquiring new skills 
 
 ### 🌱 Open Source Projects
 
-* 🔬 [analyze_clipboard_text](https://github.com/whoisoldman/analyze_clipboard_text.git)
-* 🧭 [api_flask_calendar](https://github.com/whoisoldman/api_flask_calendar.git)
-* 🧱 [abstraction_composition_coupling_cohesion](https://github.com/whoisoldman/abstraction_composition_coupling_cohesion.git)
-* 🔧 [flask_sqlalchemy](https://gitlab.com/ps_learning/ps_learning_flask_sqlalchemy.git)
-* 🛒 [python_rest_api_eshop](https://gitlab.com/ps_learning/ps-learning-python-rest-api-eshop.git)
-* 📚 [bookstore](https://gitlab.com/ps_learning/ps_learning_bookstore.git)
-* 🔄 [consumer_supply](https://github.com/whoisoldman/consumer_supply.git)
-* 🧬 [django_orm](https://github.com/whoisoldman/django_orm.git)
-* 🔐 [oauth_project](https://github.com/whoisoldman/oauth_project)
-* 🧹 [ruff_fixes](https://github.com/whoisoldman/Architecture-and-backend-homework/tree/ruff-fixes)
-* ⏳ [js_countdown](https://gdrhwf.csb.app/)
-* 📋 [js_taskmanager_linkedlist](https://xwwjqs.csb.app/)
-* 🎲 [react_dice](https://github.com/whoisoldman/dice_react_app)
+* [analyze_clipboard_text](https://github.com/whoisoldman/analyze_clipboard_text.git)
+* [api_flask_calendar](https://github.com/whoisoldman/api_flask_calendar.git)
+* [abstraction_composition_coupling_cohesion](https://github.com/whoisoldman/abstraction_composition_coupling_cohesion.git)
+* [flask_sqlalchemy](https://gitlab.com/ps_learning/ps_learning_flask_sqlalchemy.git)
+* [python_rest_api_eshop](https://gitlab.com/ps_learning/ps-learning-python-rest-api-eshop.git)
+* [bookstore](https://gitlab.com/ps_learning/ps_learning_bookstore.git)
+* [consumer_supply](https://github.com/whoisoldman/consumer_supply.git)
+* [django_orm](https://github.com/whoisoldman/django_orm.git)
+* [oauth_project](https://github.com/whoisoldman/oauth_project)
+* [ruff_fixes](https://github.com/whoisoldman/Architecture-and-backend-homework/tree/ruff-fixes)
+* [js_countdown](https://gdrhwf.csb.app/)
+* [js_taskmanager_linkedlist](https://xwwjqs.csb.app/)
+* [react_dice](https://github.com/whoisoldman/dice_react_app)
+* (https://github.com/whoisoldman/react_hooks_homework.git)
 * Not finished [Transliteration *.exe-portable](https://disk.yandex.ru/d/9-9RbX51eJdwGA)
 * Not finished [EyeRelaxPro *.exe-portable](https://disk.yandex.ru/d/OB48CkN19t686Q)
-* 🛠 More coming soon...
+* More coming soon...
 
 ---
 
