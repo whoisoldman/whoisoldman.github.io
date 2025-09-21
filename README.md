@@ -181,6 +181,7 @@ However, that was my previous chapter. I am now focused on acquiring new skills 
 ### 🛒 Commercial Projects
 
 * Not finished [MEDIA→TXT] private
+* More coming soon...
 
 ---
 
