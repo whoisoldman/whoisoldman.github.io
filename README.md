@@ -72,7 +72,7 @@ However, that was my previous chapter. I am now focused on acquiring new skills 
 - **Gunicorn**
 
 #### Frontend
-- **React** (with Vite)
+- **React**
 - **Tailwind CSS**
 - **Framer Motion**
 - **ShadCN/UI**
