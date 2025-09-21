@@ -1,5 +1,7 @@
 <!--
 * 🔬 [text](https://link.com)
+* 🤖 [text](https://link.com)
+* 🎧 [text](https://link.com)
 * 🧭 [text](https://link.com)
 * 🧱 [text](https://link.com)
 * 🔧 [text](https://link.com)
@@ -45,8 +47,8 @@ However, that was my previous chapter. I am now focused on acquiring new skills 
 
 ### 🗝 Key Projects
 * 🎧 Pet Project: [SoundBloqs Community](https://soundbloqs.com/) — community web platform for Arts
-* 💰 Finance: [TrustMoney.Club](https://trustmoney.club/) — digital presence for the Club
-* 🤖 Finance: [Telegram Bot for TrustMoney.Club](https://t.me/tmclubinfo_bot/) — Telegram resource
+* 💰 Finance Market: [TrustMoney.Club](https://trustmoney.club/) — digital presence for the Club
+* 💰 Finance: [Telegram Bot for TrustMoney.Club](https://t.me/tmclubinfo_bot/) — Telegram resource
 * 🌍 Finance: [TrustMoney.UK](https://trustmoney.uk/) — global consulting project (money transfers, trading, M0-M1, VISA.NET, investments, energy, gold, food, blockchain, crypto and more...)
 * ✍️ Writing about software development, music, art and the people who make the world a better place
 
