@@ -174,8 +174,13 @@ However, that was my previous chapter. I am now focused on acquiring new skills 
 * [react_custom_hooks](https://github.com/whoisoldman/react_hooks_homework.git)
 * Not finished [Transliteration *.exe-portable](https://disk.yandex.ru/d/9-9RbX51eJdwGA)
 * Not finished [EyeRelaxPro *.exe-portable](https://disk.yandex.ru/d/OB48CkN19t686Q)
-* Not finished [MEDIA→TXT] private
 * More coming soon...
+
+---
+
+### 🛒 Commercial Projects
+
+* Not finished [MEDIA→TXT] private
 
 ---
 
