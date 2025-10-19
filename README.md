@@ -103,6 +103,7 @@ However, that was my previous chapter. I am now focused on acquiring new skills 
 - **Git** (GitHub, GitLab)
 - **GitLab CI/CD** (pipelines & VDS deployment)
 - **Docker & Docker Compose**
+- **Ansimble**
 - **Nginx** (static content, proxying)
 - **.env** configuration
 - **RDP** via Parallels Desktop (macOS)
