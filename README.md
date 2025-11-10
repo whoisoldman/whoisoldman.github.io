@@ -170,7 +170,7 @@ However, that was my previous chapter. I am now focused on acquiring new skills 
 * [django_orm](https://github.com/whoisoldman/django_orm.git)
 * [oauth_project](https://github.com/whoisoldman/oauth_project)
 * [ruff_fixes](https://github.com/whoisoldman/Architecture-and-backend-homework/tree/ruff-fixes)
-* [js_countdown](https://gdrhwf.csb.app/)
+* [anime_timer](https://gdrhwf.csb.app/)
 * [js_taskmanager_linkedlist](https://xwwjqs.csb.app/)
 * [react_dice](https://github.com/whoisoldman/dice_react_app)
 * [react_custom_hooks](https://github.com/whoisoldman/react_hooks_homework.git)
