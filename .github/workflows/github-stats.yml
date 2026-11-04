@@ -22,7 +22,7 @@ jobs:
           card: stats
           options: username=whoisoldman&show_icons=true&theme=tokyonight&include_all_commits=true&hide_border=true
           path: profile/stats.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.GH_STATS_TOKEN }}
           fail_on_error: true
 
       - name: Generate Languages
@@ -31,7 +31,7 @@ jobs:
           card: top-langs
           options: username=whoisoldman&layout=donut&langs_count=8&theme=tokyonight&hide_border=true
           path: profile/top-langs.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.GH_STATS_TOKEN }}
           fail_on_error: true
 
       - name: Save SVG cards
