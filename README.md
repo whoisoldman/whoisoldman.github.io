@@ -37,7 +37,22 @@ However, that was my previous chapter. I am now focused on acquiring new skills 
 
 ### 📊 GitHub Stats:
 
+
+### 📊 GitHub Stats:
+
 <p align="center">
+  <img
+    src="profile/stats.svg"
+    height="180"
+    alt="Mr.OLDMAN GitHub Stats"
+  />
+  <img
+    src="profile/top-langs.svg"
+    height="180"
+    alt="Programming Languages"
+  />
+</p>
+<!-- <p align="center">
   <a href="https://github.com/stats-organization/github-stats-extended">
     <img height="150"
          src="https://github-stats-extended.vercel.app/api?username=whoisoldman&show_icons=true&theme=github_dark" />
@@ -46,7 +61,7 @@ However, that was my previous chapter. I am now focused on acquiring new skills 
     <img height="150"
          src="https://github-stats-extended.vercel.app/api/top-langs/?username=whoisoldman&layout=compact&theme=github_dark" />
   </a>
-</p>
+</p> -->
 
 ---
 
