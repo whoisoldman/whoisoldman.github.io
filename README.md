@@ -37,9 +37,6 @@ However, that was my previous chapter. I am now focused on acquiring new skills 
 
 ### 📊 GitHub Stats:
 
-
-### 📊 GitHub Stats:
-
 <p align="center">
   <img
     src="profile/stats.svg"
