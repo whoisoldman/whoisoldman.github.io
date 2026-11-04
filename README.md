@@ -36,13 +36,16 @@ However, that was my previous chapter. I am now focused on acquiring new skills 
 ---
 
 ### 📊 GitHub Stats:
-<p align='center'>
-   <a href="https://github-readme-stats.vercel.app/api?username=whoisoldman&show_icons=true&count_private=true">
-      <img height=150 src="https://github-readme-stats.vercel.app/api?username=whoisoldman&show_icons=true&count_private=true"/>
-   </a>
-   <a href="https://github.com/romankh3/github-readme-stats">
-      <img height=150 src="https://github-readme-stats.vercel.app/api/top-langs/?username=whoisoldman&layout=compact"/>
-   </a>
+
+<p align="center">
+  <a href="https://github.com/stats-organization/github-stats-extended">
+    <img height="150"
+         src="https://github-stats-extended.vercel.app/api?username=whoisoldman&show_icons=true&theme=github_dark" />
+  </a>
+  <a href="https://github.com/stats-organization/github-stats-extended">
+    <img height="150"
+         src="https://github-stats-extended.vercel.app/api/top-langs/?username=whoisoldman&layout=compact&theme=github_dark" />
+  </a>
 </p>
 
 ---
