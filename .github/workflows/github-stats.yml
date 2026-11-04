@@ -20,7 +20,7 @@ jobs:
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: stats
-          options: username=whoisoldman&show_icons=true&theme=tokyonight&include_all_commits=true&hide_border=true
+          options: username=whoisoldman&show_icons=true&theme=tokyonight&include_all_commits=true&show=contributions&hide=contribs&hide_border=true
           path: profile/stats.svg
           token: ${{ secrets.GH_STATS_TOKEN }}
           fail_on_error: true
