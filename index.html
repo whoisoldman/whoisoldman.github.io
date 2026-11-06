@@ -1,3 +1,4 @@
+
 <!doctype html>
 <html lang="en">
 <head>
@@ -6,192 +7,1052 @@
   <meta name="color-scheme" content="dark">
   <meta name="theme-color" content="#0d1117">
   <meta name="description" content="Mr.OLDMAN — systems engineering, secure infrastructure, platform architecture, automation, data systems and operational resilience.">
+
   <title>Mr.OLDMAN | Systems Engineering & Platform Architecture</title>
+
   <link rel="icon" type="image/png" href="profile/Oldman_Logo_White_Clear.png">
+
   <style>
-    :root { color-scheme: dark; --bg:#0d1117; --bg2:#111927; --panel:#151e2b; --muted:#9aa9bb; --line:#2b3a4a; --text:#f3f6fb; --cyan:#75d6e5; --blue:#87aefb; --accent:#b8f2e9; }
-    * { box-sizing:border-box; }
-    html { scroll-behavior:smooth; }
-    body { margin:0; color:var(--text); font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif; background:radial-gradient(ellipse at 50% -10%,#1b2c3d 0%,transparent 42%),var(--bg); }
-    a { color:var(--cyan); text-decoration:none; }
-    a:hover { text-decoration:underline; }
-    a:focus-visible, summary:focus-visible { outline:2px solid var(--cyan);outline-offset:4px; }
-    .wrap { max-width:1060px; padding:0 26px; margin:0 auto; }
-    .topbar { border-bottom:1px solid var(--line); background:#0d1117e8; }
-    .topbar .wrap { min-height:65px; display:flex; align-items:center; justify-content:space-between; gap:20px; }
-    .brand { font-weight:800; letter-spacing:.035em; color:#fff; }
-    .nav { display:flex; flex-wrap:wrap; gap:18px; font-size:13px; }
-    .nav a { color:#ccd6e2; }
-    .hero { text-align:center; padding:54px 16px 60px; border-bottom:1px solid var(--line); }
-    .hero-logo { width:171px; height:171px; object-fit:contain; display:block; margin:0 auto 10px; }
-    .eyebrow { text-transform:uppercase; color:var(--cyan); font-size:12px; letter-spacing:.19em; font-weight:750; }
-    .hero h1 { font-size:clamp(24px,3.6vw,40px); letter-spacing:-.035em; line-height:1.16; margin:12px auto 15px; max-width:820px; }
-    .hero p { color:#c5d0dd; font-size:clamp(15px,1.7vw,18px); max-width:700px; margin:0 auto 23px; }
-    .chips { display:flex; justify-content:center; flex-wrap:wrap; gap:10px; }
-    .chip { background:#192635; border:1px solid #314b5b; color:#d7e9f4; padding:7px 14px; border-radius:999px; font-size:13px; font-weight:650; }
-    .chip:hover { background:#23374b; text-decoration:none; }
-    main { padding:18px 0 70px; }
-    section { margin:50px 0; scroll-margin-top:25px; }
-    h2 { margin:0 0 18px; font-size:24px; letter-spacing:-.025em; }
-    .section-note { margin:-9px 0 22px; color:var(--muted); }
-    .lead { color:#cbd6e1; max-width:900px; }
-    strong { color:#f6f8fc; }
-    .grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:14px; }
-    .card { border:1px solid var(--line); border-radius:15px; background:linear-gradient(145deg,#172231,#121a26); padding:21px; min-width:0; }
-    .card h3 { margin:0 0 7px; font-size:16px; }
-    .card p { margin:0; font-size:14px; color:#b8c5d3; }
-    .step-grid { display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;counter-reset:step; }
-    .step { counter-increment:step; padding:17px; background:#111b29; border:1px solid var(--line); border-radius:10px; font-weight:600; font-size:14px; }
-    .step::before { content:counter(step, decimal-leading-zero); display:block; color:var(--cyan); font-size:12px; letter-spacing:.12em; margin-bottom:6px; }
-    details { margin:20px 0; border:1px solid var(--line); border-radius:13px; background:#121b28; overflow:hidden; }
-    summary { cursor:pointer; padding:17px 20px; font-weight:700; }
-    summary::marker { color:var(--cyan); }
-    details[open] summary { border-bottom:1px solid var(--line); }
-    .details-body { padding:20px; }
-    .details-body h3 { margin-top:0; }
-    .details-body ul { padding-left:20px; }
-    .details-body li { margin-bottom:8px; }
-    .principles { margin-top:17px; font-size:13px; color:#aebdcf; }
-    table { width:100%; border-collapse:collapse; font-size:14px; }
-    th,td { padding:10px 12px; border-bottom:1px solid var(--line); text-align:left; vertical-align:top; }
-    th { color:#dce9f7; background:#202d3b; }
-    td { color:#bbcada; }
-    td:first-child { color:#f1f6fc; font-weight:650; }
-    .table-scroll { overflow-x:auto; }
-    .skills { display:flex; flex-wrap:wrap; gap:9px; }
-    .skill { border:1px solid #344553; color:#dbe6f0; border-radius:8px; font-size:13px; padding:5px 10px; background:#172432; }
-    .projects { display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px; }
-    .project-title { display:flex;gap:8px;align-items:center; justify-content:space-between; margin-bottom:7px; font-weight:750; }
-    .project-title .note { font-size:11px; font-weight:500; color:var(--muted); text-transform:uppercase; letter-spacing:.05em; }
-    .stats { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:14px; }
-    .stats .card { display:flex; align-items:center; justify-content:center; padding:12px; min-height:195px; }
-    .stats img { width:100%; max-height:280px; object-fit:contain; }
-    .small { font-size:12px; color:var(--muted); }
-    footer { text-align:center; padding:30px 20px 45px; border-top:1px solid var(--line); color:var(--muted); font-size:13px; }
-    footer strong { letter-spacing:.03em; }
-    @media (max-width:760px) { .wrap { padding:0 18px; }.grid,.step-grid { grid-template-columns:repeat(2,minmax(0,1fr)); }.hero { padding:32px 8px 43px; }.hero-logo { height:150px;width:150px; }.projects,.stats { grid-template-columns:1fr; }.topbar .wrap { align-items:flex-start; flex-direction:column; padding-top:12px;padding-bottom:12px; gap:7px; } .nav { gap:14px; } }
-    @media (max-width:470px) { .grid,.step-grid { grid-template-columns:1fr; } h2 { font-size:22px; } .card { padding:17px; } }
-    @media (prefers-reduced-motion:reduce) { html { scroll-behavior:auto; } }
+    :root {
+      color-scheme: dark;
+      --bg: #0d1117;
+      --bg2: #111927;
+      --panel: #151e2b;
+      --muted: #9aa9bb;
+      --line: #2b3a4a;
+      --text: #f3f6fb;
+      --cyan: #75d6e5;
+      --blue: #87aefb;
+      --accent: #b8f2e9;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      color: var(--text);
+      font: 16px/1.65 -apple-system, BlinkMacSystemFont,
+            "Segoe UI", Arial, sans-serif;
+      background:
+        radial-gradient(
+          ellipse at 50% -10%,
+          #1b2c3d 0%,
+          transparent 42%
+        ),
+        var(--bg);
+    }
+
+    a {
+      color: var(--cyan);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    a:focus-visible,
+    summary:focus-visible {
+      outline: 2px solid var(--cyan);
+      outline-offset: 4px;
+    }
+
+    .wrap {
+      max-width: 1060px;
+      padding: 0 26px;
+      margin: 0 auto;
+    }
+
+    /* HEADER */
+
+    .topbar {
+      border-bottom: 1px solid var(--line);
+      background: #0d1117e8;
+    }
+
+    .topbar .wrap {
+      min-height: 65px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+    }
+
+    .brand {
+      display: inline-flex;
+      align-items: center;
+      gap: 9px;
+      font-weight: 800;
+      letter-spacing: .035em;
+      color: #fff;
+      white-space: nowrap;
+    }
+
+    .brand img {
+      display: block;
+      width: 27px;
+      height: 27px;
+      object-fit: contain;
+      flex: none;
+    }
+
+    .brand:hover {
+      text-decoration: none;
+    }
+
+    .nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 18px;
+      font-size: 13px;
+    }
+
+    .nav a {
+      color: #ccd6e2;
+    }
+
+    /* HERO */
+
+    .hero {
+      text-align: center;
+      padding: 54px 16px 60px;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .hero-logo {
+      width: 171px;
+      height: 171px;
+      object-fit: contain;
+      display: block;
+      margin: 0 auto 10px;
+    }
+
+    .eyebrow {
+      text-transform: uppercase;
+      color: var(--cyan);
+      font-size: 12px;
+      letter-spacing: .19em;
+      font-weight: 750;
+    }
+
+    .hero h1 {
+      font-size: clamp(24px, 3.6vw, 40px);
+      letter-spacing: -.035em;
+      line-height: 1.16;
+      margin: 12px auto 15px;
+      max-width: 820px;
+    }
+
+    .hero p {
+      color: #c5d0dd;
+      font-size: clamp(15px, 1.7vw, 18px);
+      max-width: 700px;
+      margin: 0 auto 23px;
+    }
+
+    /* GITHUB STYLE BADGES */
+
+    .chips {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 6px;
+    }
+
+    .badge-link {
+      display: inline-flex;
+      align-items: center;
+      line-height: 0;
+    }
+
+    .badge-link img {
+      display: block;
+      max-width: 100%;
+      height: 28px;
+      width: auto;
+    }
+
+    .badge-link:hover {
+      opacity: .86;
+      text-decoration: none;
+    }
+
+    /* CONTENT */
+
+    main {
+      padding: 18px 0 70px;
+    }
+
+    section {
+      margin: 50px 0;
+      scroll-margin-top: 25px;
+    }
+
+    h2 {
+      margin: 0 0 18px;
+      font-size: 24px;
+      letter-spacing: -.025em;
+    }
+
+    .section-note {
+      margin: -9px 0 22px;
+      color: var(--muted);
+    }
+
+    .lead {
+      color: #cbd6e1;
+      max-width: 900px;
+    }
+
+    strong {
+      color: #f6f8fc;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 14px;
+    }
+
+    .card {
+      border: 1px solid var(--line);
+      border-radius: 15px;
+      background:
+        linear-gradient(145deg, #172231, #121a26);
+      padding: 21px;
+      min-width: 0;
+    }
+
+    .card h3 {
+      margin: 0 0 7px;
+      font-size: 16px;
+    }
+
+    .card p {
+      margin: 0;
+      font-size: 14px;
+      color: #b8c5d3;
+    }
+
+    /* ENGINEERING WORKFLOW */
+
+    .step-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 10px;
+      counter-reset: step;
+    }
+
+    .step {
+      counter-increment: step;
+      padding: 17px;
+      background: #111b29;
+      border: 1px solid var(--line);
+      border-radius: 10px;
+      font-weight: 600;
+      font-size: 14px;
+    }
+
+    .step::before {
+      content: counter(step, decimal-leading-zero);
+      display: block;
+      color: var(--cyan);
+      font-size: 12px;
+      letter-spacing: .12em;
+      margin-bottom: 6px;
+    }
+
+    /* DETAILS */
+
+    details {
+      margin: 20px 0;
+      border: 1px solid var(--line);
+      border-radius: 13px;
+      background: #121b28;
+      overflow: hidden;
+    }
+
+    summary {
+      cursor: pointer;
+      padding: 17px 20px;
+      font-weight: 700;
+    }
+
+    summary::marker {
+      color: var(--cyan);
+    }
+
+    details[open] summary {
+      border-bottom: 1px solid var(--line);
+    }
+
+    .details-body {
+      padding: 20px;
+    }
+
+    .details-body h3 {
+      margin-top: 0;
+    }
+
+    .details-body ul {
+      padding-left: 20px;
+    }
+
+    .details-body li {
+      margin-bottom: 8px;
+    }
+
+    .principles {
+      margin-top: 17px;
+      font-size: 13px;
+      color: #aebdcf;
+    }
+
+    /* TABLES */
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 14px;
+    }
+
+    th, td {
+      padding: 10px 12px;
+      border-bottom: 1px solid var(--line);
+      text-align: left;
+      vertical-align: top;
+    }
+
+    th {
+      color: #dce9f7;
+      background: #202d3b;
+    }
+
+    td {
+      color: #bbcada;
+    }
+
+    td:first-child {
+      color: #f1f6fc;
+      font-weight: 650;
+    }
+
+    .table-scroll {
+      overflow-x: auto;
+    }
+
+    /* TECHNOLOGY BADGES */
+
+    .skills {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 5px;
+      padding: 7px 0;
+    }
+
+    .skills img {
+      display: block;
+      height: 22px;
+      width: auto;
+      max-width: 100%;
+    }
+
+    /* PROJECTS */
+
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 14px;
+    }
+
+    .project-title {
+      display: flex;
+      gap: 8px;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 7px;
+      font-weight: 750;
+    }
+
+    .project-title .note {
+      font-size: 11px;
+      font-weight: 500;
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: .05em;
+    }
+
+    /* GITHUB STATISTICS */
+
+    .stats {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 14px;
+    }
+
+    .stats .card {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 12px;
+      min-height: 195px;
+    }
+
+    .stats img {
+      width: 100%;
+      max-height: 280px;
+      object-fit: contain;
+    }
+
+    .small {
+      font-size: 12px;
+      color: var(--muted);
+    }
+
+    /* FOOTER */
+
+    footer {
+      text-align: center;
+      padding: 30px 20px 45px;
+      border-top: 1px solid var(--line);
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    footer strong {
+      letter-spacing: .03em;
+    }
+
+    /* RESPONSIVE */
+
+    @media (max-width: 760px) {
+      .wrap {
+        padding: 0 18px;
+      }
+
+      .grid,
+      .step-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+
+      .hero {
+        padding: 32px 8px 43px;
+      }
+
+      .hero-logo {
+        height: 150px;
+        width: 150px;
+      }
+
+      .projects,
+      .stats {
+        grid-template-columns: 1fr;
+      }
+
+      .topbar .wrap {
+        align-items: flex-start;
+        flex-direction: column;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        gap: 7px;
+      }
+
+      .nav {
+        gap: 14px;
+      }
+    }
+
+    @media (max-width: 470px) {
+      .grid,
+      .step-grid {
+        grid-template-columns: 1fr;
+      }
+
+      h2 {
+        font-size: 22px;
+      }
+
+      .card {
+        padding: 17px;
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      html {
+        scroll-behavior: auto;
+      }
+    }
   </style>
 </head>
+
 <body>
+
+  <!-- HEADER -->
+
   <header class="topbar">
     <div class="wrap">
-      <a class="brand" href="#top">MR.OLDMAN</a>
+
+      <a class="brand" href="#top">
+        <img
+          src="profile/Oldman_Logo_White_Clear.png"
+          alt=""
+          aria-hidden="true"
+          width="27"
+          height="27">
+        Mr.OLDMAN
+      </a>
+
       <nav class="nav" aria-label="Main navigation">
-        <a href="#focus">Expertise</a><a href="#stack">Technology</a><a href="#work">Projects</a><a href="#activity">Activity</a><a href="#contact">Contact</a>
+        <a href="#focus">Expertise</a>
+        <a href="#stack">Technology</a>
+        <a href="#work">Projects</a>
+        <a href="#activity">Activity</a>
+        <a href="#contact">Contact</a>
       </nav>
+
     </div>
   </header>
+
+  <!-- HERO -->
+
   <div class="wrap" id="top">
     <div class="hero">
-      <img class="hero-logo" src="profile/Mr.Oldman_Logo_Site_White.png" width="171" height="171" alt="Mr.OLDMAN logo">
-      <div class="eyebrow">Systems engineering · Platform architecture · Secure infrastructure</div>
+
+      <img
+        class="hero-logo"
+        src="profile/Mr.Oldman_Logo_Site_White.png"
+        width="171"
+        height="171"
+        alt="Mr.OLDMAN logo">
+
+      <div class="eyebrow">
+        Systems engineering · Platform architecture · Secure infrastructure
+      </div>
+
       <h1>Designing reliable digital systems</h1>
-      <p>From product strategy and software architecture to secure deployment and production operations.</p>
+
+      <p>
+        From product strategy and software architecture
+        to secure deployment and production operations.
+      </p>
+
+      <!-- PROFILE BUTTONS -->
+
       <div class="chips">
-        <a class="chip" href="https://github.com/whoisoldman" rel="noopener noreferrer">GitHub / whoisoldman</a>
-        <a class="chip" href="#focus">Systems &amp; Infrastructure</a>
-        <a class="chip" href="https://www.soundbloqs.com/contact/" rel="noopener noreferrer">Get in touch</a>
+
+        <a
+          class="badge-link"
+          href="https://github.com/whoisoldman"
+          rel="noopener noreferrer"
+          aria-label="GitHub profile">
+          <img
+            src="https://img.shields.io/badge/GitHub-whoisoldman-181717?style=for-the-badge&amp;logo=github&amp;logoColor=white"
+            alt="GitHub: whoisoldman">
+        </a>
+
+        <a
+          class="badge-link"
+          href="#focus"
+          aria-label="Systems and infrastructure">
+          <img
+            src="https://img.shields.io/badge/Focus-Systems%20%26%20Infrastructure-0C8293?style=for-the-badge"
+            alt="Focus: Systems &amp; Infrastructure">
+        </a>
+
+        <a
+          class="badge-link"
+          href="https://www.soundbloqs.com/contact/"
+          rel="noopener noreferrer"
+          aria-label="Get in touch">
+          <img
+            src="https://img.shields.io/badge/Contact-Get%20in%20touch-365DAD?style=for-the-badge"
+            alt="Contact: Get in touch">
+        </a>
+
       </div>
     </div>
+
     <main>
+
+      <!-- PROFILE -->
+
       <section aria-labelledby="profile-title">
+
         <h2 id="profile-title">Profile</h2>
-        <p class="lead">I work at the intersection of <strong>software engineering, infrastructure architecture, data systems, and business strategy</strong>. My approach connects product objectives with secure deployment, operational resilience, and measurable outcomes.</p>
-        <p class="lead">My background includes leading development and marketing at an international investment holding and building vertically integrated business operations. Today, that systems-level perspective informs how I design and deliver digital platforms: <strong>end-to-end ownership, clear operational boundaries, disciplined change management, and repeatable verification</strong>.</p>
+
+        <p class="lead">
+          I work at the intersection of
+          <strong>
+            software engineering, infrastructure architecture,
+            data systems, and business strategy
+          </strong>.
+          My approach connects product objectives with secure deployment,
+          operational resilience, and measurable outcomes.
+        </p>
+
+        <p class="lead">
+          My background includes leading development and marketing
+          at an international investment holding and building vertically
+          integrated business operations. Today, that systems-level
+          perspective informs how I design and deliver digital platforms:
+          <strong>
+            end-to-end ownership, clear operational boundaries,
+            disciplined change management, and repeatable verification.
+          </strong>
+        </p>
+
       </section>
+
+      <!-- ENGINEERING FOCUS -->
+
       <section id="focus" aria-labelledby="focus-title">
+
         <h2 id="focus-title">Engineering focus</h2>
+
         <div class="grid">
-          <article class="card"><h3>Platform architecture</h3><p>Multi-service applications, control planes, API gateways, backend integration and well-defined service boundaries.</p></article>
-          <article class="card"><h3>Infrastructure &amp; operations</h3><p>Linux, Nginx, systemd, Docker, SSH, TLS, deployment workflows and service health.</p></article>
-          <article class="card"><h3>Networking &amp; security</h3><p>WireGuard, Xray, reverse proxies, tunnel-based administration, least privilege and credential isolation.</p></article>
-          <article class="card"><h3>Data &amp; automation</h3><p>PostgreSQL, SQLite, Python, REST APIs, operational automation and analytics.</p></article>
-          <article class="card"><h3>Reliability &amp; recovery</h3><p>Encrypted backups, restore testing, versioned configuration, integrity checks and reproducible rollbacks.</p></article>
-          <article class="card"><h3>Product engineering</h3><p>Web interfaces, subscription workflows, customer portals, billing integration and business analytics.</p></article>
+
+          <article class="card">
+            <h3>Platform architecture</h3>
+            <p>
+              Multi-service applications, control planes, API gateways,
+              backend integration and well-defined service boundaries.
+            </p>
+          </article>
+
+          <article class="card">
+            <h3>Infrastructure &amp; operations</h3>
+            <p>
+              Linux, Nginx, systemd, Docker, SSH, TLS,
+              deployment workflows and service health.
+            </p>
+          </article>
+
+          <article class="card">
+            <h3>Networking &amp; security</h3>
+            <p>
+              WireGuard, Xray, reverse proxies, tunnel-based
+              administration, least privilege and credential isolation.
+            </p>
+          </article>
+
+          <article class="card">
+            <h3>Data &amp; automation</h3>
+            <p>
+              PostgreSQL, SQLite, Python, REST APIs,
+              operational automation and analytics.
+            </p>
+          </article>
+
+          <article class="card">
+            <h3>Reliability &amp; recovery</h3>
+            <p>
+              Encrypted backups, restore testing, versioned configuration,
+              integrity checks and reproducible rollbacks.
+            </p>
+          </article>
+
+          <article class="card">
+            <h3>Product engineering</h3>
+            <p>
+              Web interfaces, subscription workflows, customer portals,
+              billing integration and business analytics.
+            </p>
+          </article>
+
         </div>
+
         <details>
-          <summary>Explore the engineering approach · architecture and delivery</summary>
+          <summary>
+            Explore the engineering approach · architecture and delivery
+          </summary>
+
           <div class="details-body">
+
             <h3>From specification to verified release</h3>
+
             <div class="step-grid" aria-label="Engineering workflow">
-              <div class="step">Product requirements</div><div class="step">Architecture and interfaces</div><div class="step">Implementation and tests</div>
-              <div class="step">Controlled delivery</div><div class="step">Verification and observability</div><div class="step">Recovery and iteration</div>
+              <div class="step">Product requirements</div>
+              <div class="step">Architecture and interfaces</div>
+              <div class="step">Implementation and tests</div>
+              <div class="step">Controlled delivery</div>
+              <div class="step">Verification and observability</div>
+              <div class="step">Recovery and iteration</div>
             </div>
-            <p class="principles">Continuous feedback · Minimal exposure · Explicit access boundaries · Encrypted recovery · Tested rollbacks · Traceable changes.</p>
+
+            <p class="principles">
+              Continuous feedback · Minimal exposure ·
+              Explicit access boundaries · Encrypted recovery ·
+              Tested rollbacks · Traceable changes.
+            </p>
+
           </div>
         </details>
+
       </section>
+
+      <!-- TECHNOLOGY LANDSCAPE -->
+
       <section id="stack" aria-labelledby="stack-title">
+
         <h2 id="stack-title">Technology landscape</h2>
-        <div class="skills">
-          <span class="skill">Python</span><span class="skill">JavaScript</span><span class="skill">PostgreSQL</span><span class="skill">SQLite</span><span class="skill">Linux</span><span class="skill">Docker</span><span class="skill">Nginx</span><span class="skill">Cloudflare</span><span class="skill">WireGuard</span><span class="skill">Git</span><span class="skill">GitHub</span><span class="skill">REST APIs</span><span class="skill">TLS</span><span class="skill">Systemd</span>
+
+        <div class="skills" aria-label="Technology stack">
+
+          <img
+            src="https://img.shields.io/badge/Python-3776AB?style=flat-square&amp;logo=python&amp;logoColor=white"
+            alt="Python">
+
+          <img
+            src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&amp;logo=javascript&amp;logoColor=black"
+            alt="JavaScript">
+
+          <img
+            src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&amp;logo=postgresql&amp;logoColor=white"
+            alt="PostgreSQL">
+
+          <img
+            src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&amp;logo=sqlite&amp;logoColor=white"
+            alt="SQLite">
+
+          <img
+            src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&amp;logo=linux&amp;logoColor=black"
+            alt="Linux">
+
+          <img
+            src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&amp;logo=docker&amp;logoColor=white"
+            alt="Docker">
+
+          <img
+            src="https://img.shields.io/badge/Nginx-009639?style=flat-square&amp;logo=nginx&amp;logoColor=white"
+            alt="Nginx">
+
+          <img
+            src="https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&amp;logo=cloudflare&amp;logoColor=white"
+            alt="Cloudflare">
+
+          <img
+            src="https://img.shields.io/badge/Git-F05032?style=flat-square&amp;logo=git&amp;logoColor=white"
+            alt="Git">
+
+          <img
+            src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&amp;logo=githubactions&amp;logoColor=white"
+            alt="GitHub Actions">
+
         </div>
+
         <details>
           <summary>Full stack &amp; toolchain</summary>
+
           <div class="details-body table-scroll">
-            <table><thead><tr><th>Layer</th><th>Technologies &amp; capabilities</th></tr></thead><tbody>
-              <tr><td>Application</td><td>Python, JavaScript, HTML, CSS, Django, Flask, REST APIs, SQLAlchemy</td></tr>
-              <tr><td>Frontend</td><td>React, Tailwind CSS, Fetch API, responsive UI components</td></tr>
-              <tr><td>Data</td><td>PostgreSQL, SQLite, JSON, XML, Power BI, DAX</td></tr>
-              <tr><td>Infrastructure</td><td>Ubuntu/Linux, Nginx, Docker Compose, systemd, SSH, WireGuard, TLS, Cloudflare</td></tr>
-              <tr><td>Delivery</td><td>Git, GitHub, GitLab CI/CD, Ansible, shell/Python automation</td></tr>
-              <tr><td>Assurance</td><td>Restic, age encryption, SHA-256 verification, backup/restore testing, logging and rollback</td></tr>
-              <tr><td>Developer tooling</td><td>VS Code, Codex, Homebrew, Postman, Ruff, Black, ESLint, Prettier</td></tr>
-            </tbody></table>
+            <table>
+
+              <thead>
+                <tr>
+                  <th>Layer</th>
+                  <th>Technologies &amp; capabilities</th>
+                </tr>
+              </thead>
+
+              <tbody>
+
+                <tr>
+                  <td>Application</td>
+                  <td>
+                    Python, JavaScript, HTML, CSS, Django,
+                    Flask, REST APIs, SQLAlchemy
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>Frontend</td>
+                  <td>
+                    React, Tailwind CSS, Fetch API,
+                    responsive UI components
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>Data</td>
+                  <td>
+                    PostgreSQL, SQLite, JSON, XML,
+                    Power BI, DAX
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>Infrastructure</td>
+                  <td>
+                    Ubuntu/Linux, Nginx, Docker Compose,
+                    systemd, SSH, WireGuard, TLS, Cloudflare
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>Delivery</td>
+                  <td>
+                    Git, GitHub, GitLab CI/CD, Ansible,
+                    shell/Python automation
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>Assurance</td>
+                  <td>
+                    Restic, age encryption, SHA-256 verification,
+                    backup/restore testing, logging and rollback
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>Developer tooling</td>
+                  <td>
+                    VS Code, Codex, Homebrew, Postman,
+                    Ruff, Black, ESLint, Prettier
+                  </td>
+                </tr>
+
+              </tbody>
+            </table>
           </div>
+
         </details>
+
       </section>
+
+      <!-- SELECTED WORK -->
+
       <section id="work" aria-labelledby="work-title">
+
         <h2 id="work-title">Selected work</h2>
+
         <div class="projects">
-          <article class="card"><div class="project-title">Secure distributed services <span class="note">Private</span></div><p>Distributed service architecture, private control planes, encrypted delivery, network routing, resilient operations and verified recovery. Implementation details remain private.</p></article>
-          <article class="card"><div class="project-title"><a href="https://soundbloqs.com/">SoundBloqs Community</a><span class="note">Community</span></div><p>Community platform for art, sound, and creative collaboration.</p></article>
-          <article class="card"><div class="project-title"><a href="https://club.trustmoney.uk/">TrustMoney.Club</a><span class="note">Finance</span></div><p>Digital presence for a finance-focused community.</p></article>
-          <article class="card"><div class="project-title"><a href="https://trustmoney.uk/">TrustMoney.UK</a><span class="note">Business</span></div><p>International business and consulting presence.</p></article>
-          <article class="card"><div class="project-title"><a href="https://t.me/tmclubinfo_bot">TrustMoney Telegram</a><span class="note">Automation</span></div><p>Messaging and automated information delivery.</p></article>
+
+          <article class="card">
+            <div class="project-title">
+              Secure distributed services
+              <span class="note">Private</span>
+            </div>
+            <p>
+              Distributed service architecture, private control planes,
+              encrypted delivery, network routing, resilient operations
+              and verified recovery. Implementation details remain private.
+            </p>
+          </article>
+
+          <article class="card">
+            <div class="project-title">
+              <a href="https://soundbloqs.com/">
+                SoundBloqs Community
+              </a>
+              <span class="note">Community</span>
+            </div>
+            <p>
+              Community platform for art, sound,
+              and creative collaboration.
+            </p>
+          </article>
+
+          <article class="card">
+            <div class="project-title">
+              <a href="https://club.trustmoney.uk/">
+                TrustMoney.Club
+              </a>
+              <span class="note">Finance</span>
+            </div>
+            <p>
+              Digital presence for a finance-focused community.
+            </p>
+          </article>
+
+          <article class="card">
+            <div class="project-title">
+              <a href="https://trustmoney.uk/">
+                TrustMoney.UK
+              </a>
+              <span class="note">Business</span>
+            </div>
+            <p>
+              International business and consulting presence.
+            </p>
+          </article>
+
+          <article class="card">
+            <div class="project-title">
+              <a href="https://t.me/tmclubinfo_bot">
+                TrustMoney Telegram
+              </a>
+              <span class="note">Automation</span>
+            </div>
+            <p>
+              Messaging and automated information delivery.
+            </p>
+          </article>
+
         </div>
+
         <details>
           <summary>Open-source repositories &amp; experiments</summary>
+
           <div class="details-body">
+
             <h3>Python / APIs / architecture</h3>
+
             <ul>
-              <li><a href="https://github.com/whoisoldman/analyze_clipboard_text">Clipboard analysis</a> · <a href="https://github.com/whoisoldman/api_flask_calendar">Flask calendar API</a> · <a href="https://github.com/whoisoldman/abstraction_composition_coupling_cohesion">Abstraction &amp; composition</a></li>
-              <li><a href="https://github.com/whoisoldman/consumer_supply">Consumer supply</a> · <a href="https://github.com/whoisoldman/django_orm">Django ORM</a> · <a href="https://github.com/whoisoldman/oauth_project">OAuth project</a></li>
-              <li><a href="https://gitlab.com/ps_learning/ps-learning-python-rest-api-eshop">REST API e-shop</a> · <a href="https://gitlab.com/ps_learning/ps_learning_flask_sqlalchemy">Flask / SQLAlchemy</a> · <a href="https://gitlab.com/ps_learning/ps_learning_bookstore">Bookstore</a></li>
+              <li>
+                <a href="https://github.com/whoisoldman/analyze_clipboard_text">Clipboard analysis</a> ·
+                <a href="https://github.com/whoisoldman/api_flask_calendar">Flask calendar API</a> ·
+                <a href="https://github.com/whoisoldman/abstraction_composition_coupling_cohesion">Abstraction &amp; composition</a>
+              </li>
+              <li>
+                <a href="https://github.com/whoisoldman/consumer_supply">Consumer supply</a> ·
+                <a href="https://github.com/whoisoldman/django_orm">Django ORM</a> ·
+                <a href="https://github.com/whoisoldman/oauth_project">OAuth project</a>
+              </li>
+              <li>
+                <a href="https://gitlab.com/ps_learning/ps-learning-python-rest-api-eshop">REST API e-shop</a> ·
+                <a href="https://gitlab.com/ps_learning/ps_learning_flask_sqlalchemy">Flask / SQLAlchemy</a> ·
+                <a href="https://gitlab.com/ps_learning/ps_learning_bookstore">Bookstore</a>
+              </li>
             </ul>
+
             <h3>JavaScript / UI</h3>
-            <ul><li><a href="https://github.com/whoisoldman/dice_react_app">React dice</a> · <a href="https://github.com/whoisoldman/react_hooks_homework">React hooks</a> · <a href="https://xwwjqs.csb.app/">Task manager</a> · <a href="https://gdrhwf.csb.app/">Anime timer</a></li></ul>
-            <p><a href="https://github.com/whoisoldman?tab=repositories">Browse repositories</a></p>
+
+            <ul>
+              <li>
+                <a href="https://github.com/whoisoldman/dice_react_app">React dice</a> ·
+                <a href="https://github.com/whoisoldman/react_hooks_homework">React hooks</a> ·
+                <a href="https://xwwjqs.csb.app/">Task manager</a> ·
+                <a href="https://gdrhwf.csb.app/">Anime timer</a>
+              </li>
+            </ul>
+
+            <p>
+              <a href="https://github.com/whoisoldman?tab=repositories">
+                Browse repositories
+              </a>
+            </p>
+
           </div>
         </details>
+
       </section>
+
+      <!-- GITHUB ACTIVITY -->
+
       <section id="activity" aria-labelledby="activity-title">
+
         <h2 id="activity-title">GitHub activity</h2>
+
         <div class="stats">
-          <div class="card"><img src="profile/stats.svg" alt="GitHub activity statistics" loading="lazy"></div>
-          <div class="card"><img src="profile/top-langs.svg" alt="Programming language overview" loading="lazy"></div>
+
+          <div class="card">
+            <img
+              src="profile/stats.svg"
+              alt="GitHub activity statistics"
+              loading="lazy">
+          </div>
+
+          <div class="card">
+            <img
+              src="profile/top-langs.svg"
+              alt="Programming language overview"
+              loading="lazy">
+          </div>
+
         </div>
-        <p class="small">Statistics are rendered from repository SVG assets. Private activity visibility follows GitHub profile settings; language charts reflect repository composition, not proficiency.</p>
+
+        <p class="small">
+          Statistics are rendered from repository SVG assets.
+          Private activity visibility follows GitHub profile settings;
+          language charts reflect repository composition, not proficiency.
+        </p>
+
       </section>
+
+      <!-- EDUCATION -->
+
       <section id="credentials" aria-labelledby="credentials-title">
-        <details><summary>Education &amp; professional development</summary><div class="details-body">
-          <ul>
-            <li><strong>2000</strong> · Director &amp; Sound Engineer — <a href="https://gitis.net/en/">GITIS</a></li>
-            <li><strong>2004</strong> · International Business &amp; Economics — <a href="https://www.rsuh.ru/en/">RSUH</a></li>
-            <li><strong>2023</strong> · Marketplace Management — <a href="https://practicum.yandex.ru/">Yandex Practicum</a></li>
-            <li><strong>2024</strong> · Data Analytics — <a href="https://en.fa.ru/">Financial University</a></li>
-            <li><strong>2025</strong> · Python, Full-stack, DevOps &amp; Data Science — <a href="https://productstar.ru/">ProductStar</a></li>
-          </ul>
-        </div></details>
+
+        <details>
+
+          <summary>Education &amp; professional development</summary>
+
+          <div class="details-body">
+            <ul>
+
+              <li>
+                <strong>2000</strong> · Director &amp; Sound Engineer —
+                <a href="https://gitis.net/en/">GITIS</a>
+              </li>
+
+              <li>
+                <strong>2004</strong> · International Business &amp; Economics —
+                <a href="https://www.rsuh.ru/en/">RSUH</a>
+              </li>
+
+              <li>
+                <strong>2023</strong> · Marketplace Management —
+                <a href="https://practicum.yandex.ru/">Yandex Practicum</a>
+              </li>
+
+              <li>
+                <strong>2024</strong> · Data Analytics —
+                <a href="https://en.fa.ru/">Financial University</a>
+              </li>
+
+              <li>
+                <strong>2025</strong> · Python, Full-stack,
+                DevOps &amp; Data Science —
+                <a href="https://productstar.ru/">ProductStar</a>
+              </li>
+
+            </ul>
+          </div>
+
+        </details>
+
       </section>
+
     </main>
   </div>
+
+  <!-- FOOTER -->
+
   <footer id="contact">
-    <strong>Systems thinking. Security by design. Verification before release.</strong>
-    <p><a href="https://www.soundbloqs.com/contact/">Contact</a> &nbsp;·&nbsp; <a href="https://github.com/whoisoldman">GitHub</a> &nbsp;·&nbsp; <a href="https://t.me/soundbloqsfb_bot">Telegram</a></p>
-    <span>© Mr.OLDMAN</span>
+
+    <strong>
+      Systems thinking. Security by design. Verification before release.
+    </strong>
+
+    <p>
+      <a href="https://www.soundbloqs.com/contact/">Contact</a>
+      &nbsp;·&nbsp;
+      <a href="https://github.com/whoisoldman">GitHub</a>
+      &nbsp;·&nbsp;
+      <a href="https://t.me/soundbloqsfb_bot">Telegram</a>
+    </p>
+
+    <span>
+      © 2019-<span id="current-year">2026</span> | Mr.OLDMAN
+    </span>
+
   </footer>
+
+  <!-- AUTOMATIC CURRENT YEAR -->
+
+  <script>
+    document.getElementById("current-year").textContent =
+      new Date().getFullYear();
+  </script>
+
 </body>
 </html>
