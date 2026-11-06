@@ -134,7 +134,7 @@ flowchart TB
 
 **Systems thinking. Security by design. Verification before release.**
 
-[Contact](https://www.soundbloqs.com/contact/) · [GitHub](https://github.com/whoisoldman) · [Telegram](https://t.me/soundbloqsfb_bot)
+[Contact](https://www.soundbloqs.com/contact/) · [GitHub](https://github.com/whoisoldman)
 
 </div>
 
