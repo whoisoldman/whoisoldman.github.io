@@ -11,7 +11,7 @@
 
 ---
 
-### Systems Engineering · Platform Architecture · Secure Infrastructure
+## Systems Engineering · Platform Architecture · Secure Infrastructure
 
 **Designing reliable digital systems — from product strategy to production operations.**
 
