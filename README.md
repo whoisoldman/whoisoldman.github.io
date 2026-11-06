@@ -1,3 +1,4 @@
+
 <div align="center">
 
 # Mr.OLDMAN
@@ -37,7 +38,7 @@ My background includes leading development and marketing at an international inv
 ### From specification to verified release
 
 ```mermaid
-flowchart LR
+flowchart TB
     A[Product requirements] --> B[Architecture and interfaces]
     B --> C[Implementation and tests]
     C --> D[Controlled delivery]
