@@ -2,1057 +2,797 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="color-scheme" content="dark">
-  <meta name="theme-color" content="#0d1117">
-  <meta name="description" content="Mr.OLDMAN — systems engineering, secure infrastructure, platform architecture, automation, data systems and operational resilience.">
-
-  <title>Mr.OLDMAN | Systems Engineering & Platform Architecture</title>
-
-  <link rel="icon" type="image/png" href="profile/Oldman_Logo_White_Clear.png">
-
-  <style>
-    :root {
-      color-scheme: dark;
-      --bg: #0d1117;
-      --bg2: #111927;
-      --panel: #151e2b;
-      --muted: #9aa9bb;
-      --line: #2b3a4a;
-      --text: #f3f6fb;
-      --cyan: #75d6e5;
-      --blue: #87aefb;
-      --accent: #b8f2e9;
-    }
-
-    * {
-      box-sizing: border-box;
-    }
-
-    html {
-      scroll-behavior: smooth;
-    }
-
-    body {
-      margin: 0;
-      color: var(--text);
-      font: 16px/1.65 -apple-system, BlinkMacSystemFont,
-            "Segoe UI", Arial, sans-serif;
-      background:
-        radial-gradient(
-          ellipse at 50% -10%,
-          #1b2c3d 0%,
-          transparent 42%
-        ),
-        var(--bg);
-    }
-
-    a {
-      color: var(--cyan);
-      text-decoration: none;
-    }
-
-    a:hover {
-      text-decoration: underline;
-    }
-
-    a:focus-visible,
-    summary:focus-visible {
-      outline: 2px solid var(--cyan);
-      outline-offset: 4px;
-    }
-
-    .wrap {
-      max-width: 1060px;
-      padding: 0 26px;
-      margin: 0 auto;
-    }
-
-    /* HEADER */
-
-    .topbar {
-      border-bottom: 1px solid var(--line);
-      background: #0d1117e8;
-    }
-
-    .topbar .wrap {
-      min-height: 65px;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 20px;
-    }
-
-    .brand {
-      display: inline-flex;
-      align-items: center;
-      gap: 9px;
-      font-weight: 800;
-      letter-spacing: .035em;
-      color: #fff;
-      white-space: nowrap;
-    }
-
-    .brand img {
-      display: block;
-      width: 27px;
-      height: 27px;
-      object-fit: contain;
-      flex: none;
-    }
-
-    .brand:hover {
-      text-decoration: none;
-    }
-
-    .nav {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 18px;
-      font-size: 13px;
-    }
-
-    .nav a {
-      color: #ccd6e2;
-    }
-
-    /* HERO */
-
-    .hero {
-      text-align: center;
-      padding: 54px 16px 60px;
-      border-bottom: 1px solid var(--line);
-    }
-
-    .hero-logo {
-      width: 171px;
-      height: 171px;
-      object-fit: contain;
-      display: block;
-      margin: 0 auto 10px;
-    }
-
-    .eyebrow {
-      text-transform: uppercase;
-      color: var(--cyan);
-      font-size: 12px;
-      letter-spacing: .19em;
-      font-weight: 750;
-    }
-
-    .hero h1 {
-      font-size: clamp(24px, 3.6vw, 40px);
-      letter-spacing: -.035em;
-      line-height: 1.16;
-      margin: 12px auto 15px;
-      max-width: 820px;
-    }
-
-    .hero p {
-      color: #c5d0dd;
-      font-size: clamp(15px, 1.7vw, 18px);
-      max-width: 700px;
-      margin: 0 auto 23px;
-    }
-
-    /* GITHUB STYLE BADGES */
-
-    .chips {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-wrap: wrap;
-      gap: 6px;
-    }
-
-    .badge-link {
-      display: inline-flex;
-      align-items: center;
-      line-height: 0;
-    }
-
-    .badge-link img {
-      display: block;
-      max-width: 100%;
-      height: 28px;
-      width: auto;
-    }
-
-    .badge-link:hover {
-      opacity: .86;
-      text-decoration: none;
-    }
-
-    /* CONTENT */
-
-    main {
-      padding: 18px 0 70px;
-    }
-
-    section {
-      margin: 50px 0;
-      scroll-margin-top: 25px;
-    }
-
-    h2 {
-      margin: 0 0 18px;
-      font-size: 24px;
-      letter-spacing: -.025em;
-    }
-
-    .section-note {
-      margin: -9px 0 22px;
-      color: var(--muted);
-    }
-
-    .lead {
-      color: #cbd6e1;
-      max-width: 900px;
-    }
-
-    strong {
-      color: #f6f8fc;
-    }
-
-    .grid {
-      display: grid;
-      grid-template-columns: repeat(3, minmax(0, 1fr));
-      gap: 14px;
-    }
-
-    .card {
-      border: 1px solid var(--line);
-      border-radius: 15px;
-      background:
-        linear-gradient(145deg, #172231, #121a26);
-      padding: 21px;
-      min-width: 0;
-    }
-
-    .card h3 {
-      margin: 0 0 7px;
-      font-size: 16px;
-    }
-
-    .card p {
-      margin: 0;
-      font-size: 14px;
-      color: #b8c5d3;
-    }
-
-    /* ENGINEERING WORKFLOW */
-
-    .step-grid {
-      display: grid;
-      grid-template-columns: repeat(3, minmax(0, 1fr));
-      gap: 10px;
-      counter-reset: step;
-    }
-
-    .step {
-      counter-increment: step;
-      padding: 17px;
-      background: #111b29;
-      border: 1px solid var(--line);
-      border-radius: 10px;
-      font-weight: 600;
-      font-size: 14px;
-    }
-
-    .step::before {
-      content: counter(step, decimal-leading-zero);
-      display: block;
-      color: var(--cyan);
-      font-size: 12px;
-      letter-spacing: .12em;
-      margin-bottom: 6px;
-    }
-
-    /* DETAILS */
-
-    details {
-      margin: 20px 0;
-      border: 1px solid var(--line);
-      border-radius: 13px;
-      background: #121b28;
-      overflow: hidden;
-    }
-
-    summary {
-      cursor: pointer;
-      padding: 17px 20px;
-      font-weight: 700;
-    }
-
-    summary::marker {
-      color: var(--cyan);
-    }
-
-    details[open] summary {
-      border-bottom: 1px solid var(--line);
-    }
-
-    .details-body {
-      padding: 20px;
-    }
-
-    .details-body h3 {
-      margin-top: 0;
-    }
-
-    .details-body ul {
-      padding-left: 20px;
-    }
-
-    .details-body li {
-      margin-bottom: 8px;
-    }
-
-    .principles {
-      margin-top: 17px;
-      font-size: 13px;
-      color: #aebdcf;
-    }
-
-    /* TABLES */
-
-    table {
-      width: 100%;
-      border-collapse: collapse;
-      font-size: 14px;
-    }
-
-    th, td {
-      padding: 10px 12px;
-      border-bottom: 1px solid var(--line);
-      text-align: left;
-      vertical-align: top;
-    }
-
-    th {
-      color: #dce9f7;
-      background: #202d3b;
-    }
-
-    td {
-      color: #bbcada;
-    }
-
-    td:first-child {
-      color: #f1f6fc;
-      font-weight: 650;
-    }
-
-    .table-scroll {
-      overflow-x: auto;
-    }
-
-    /* TECHNOLOGY BADGES */
-
-    .skills {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-wrap: wrap;
-      gap: 5px;
-      padding: 7px 0;
-    }
-
-    .skills img {
-      display: block;
-      height: 22px;
-      width: auto;
-      max-width: 100%;
-    }
-
-    /* PROJECTS */
-
-    .projects {
-      display: grid;
-      grid-template-columns: repeat(2, minmax(0, 1fr));
-      gap: 14px;
-    }
-
-    .project-title {
-      display: flex;
-      gap: 8px;
-      align-items: center;
-      justify-content: space-between;
-      margin-bottom: 7px;
-      font-weight: 750;
-    }
-
-    .project-title .note {
-      font-size: 11px;
-      font-weight: 500;
-      color: var(--muted);
-      text-transform: uppercase;
-      letter-spacing: .05em;
-    }
-
-    /* GITHUB STATISTICS */
-
-    .stats {
-      display: grid;
-      grid-template-columns: repeat(2, minmax(0, 1fr));
-      gap: 14px;
-    }
-
-    .stats .card {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      padding: 12px;
-      min-height: 195px;
-    }
-
-    .stats img {
-      width: 100%;
-      max-height: 280px;
-      object-fit: contain;
-    }
-
-    .small {
-      font-size: 12px;
-      color: var(--muted);
-    }
-
-    /* FOOTER */
-
-    footer {
-      text-align: center;
-      padding: 30px 20px 45px;
-      border-top: 1px solid var(--line);
-      color: var(--muted);
-      font-size: 13px;
-    }
-
-    footer strong {
-      letter-spacing: .03em;
-    }
-
-    /* RESPONSIVE */
-
-    @media (max-width: 760px) {
-      .wrap {
-        padding: 0 18px;
-      }
-
-      .grid,
-      .step-grid {
-        grid-template-columns: repeat(2, minmax(0, 1fr));
-      }
-
-      .hero {
-        padding: 32px 8px 43px;
-      }
-
-      .hero-logo {
-        height: 150px;
-        width: 150px;
-      }
-
-      .projects,
-      .stats {
-        grid-template-columns: 1fr;
-      }
-
-      .topbar .wrap {
-        align-items: flex-start;
-        flex-direction: column;
-        padding-top: 12px;
-        padding-bottom: 12px;
-        gap: 7px;
-      }
-
-      .nav {
-        gap: 14px;
-      }
-    }
-
-    @media (max-width: 470px) {
-      .grid,
-      .step-grid {
-        grid-template-columns: 1fr;
-      }
-
-      h2 {
-        font-size: 22px;
-      }
-
-      .card {
-        padding: 17px;
-      }
-    }
-
-    @media (prefers-reduced-motion: reduce) {
-      html {
-        scroll-behavior: auto;
-      }
-    }
-  </style>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="dark">
+<meta name="theme-color" content="#0d1117">
+<meta name="description" content="Mr.OLDMAN — systems engineering, secure infrastructure, platform architecture, automation, data systems and operational resilience.">
+<title>Mr.OLDMAN | Systems Engineering & Platform Architecture</title>
+<link rel="icon" type="image/png" href="profile/Oldman_Logo_White_Clear.png">
+
+<style>
+:root {
+  color-scheme:dark;
+  --bg:#0d1117;
+  --line:#2b3a4a;
+  --muted:#9aa9bb;
+  --text:#f3f6fb;
+  --cyan:#75d6e5;
+}
+* {box-sizing:border-box}
+html {scroll-behavior:smooth}
+body {
+  margin:0;
+  color:var(--text);
+  font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;
+  background:radial-gradient(ellipse at 50% -10%,#1b2c3d 0%,transparent 42%),var(--bg);
+}
+a {color:var(--cyan);text-decoration:none}
+a:hover {text-decoration:underline}
+a:focus-visible,button:focus-visible,summary:focus-visible {
+  outline:2px solid var(--cyan);
+  outline-offset:3px;
+}
+.wrap {max-width:1060px;padding:0 26px;margin:0 auto}
+.topbar {border-bottom:1px solid var(--line);background:#0d1117f2}
+.topbar .wrap {
+  min-height:65px;
+  display:grid;
+  grid-template-columns:auto 1fr auto;
+  align-items:center;
+  gap:16px;
+}
+.brand {
+  display:inline-flex;
+  align-items:center;
+  gap:9px;
+  font-weight:800;
+  letter-spacing:.035em;
+  color:#fff;
+  white-space:nowrap;
+}
+.brand:hover {text-decoration:none}
+.brand img {width:27px;height:27px;object-fit:contain}
+.nav {
+  display:flex;
+  justify-content:flex-end;
+  flex-wrap:wrap;
+  gap:16px;
+  font-size:13px;
+}
+.nav a {color:#ccd6e2;white-space:nowrap}
+
+/* Language selector */
+.languages {
+  display:inline-flex;
+  gap:3px;
+  padding:3px;
+  border:1px solid #35475b;
+  border-radius:9px;
+  background:#111c29;
+  white-space:nowrap;
+}
+.languages button {
+  border:0;
+  border-radius:6px;
+  background:transparent;
+  color:#b9c8d9;
+  font-family:inherit;
+  font-size:12px;
+  font-weight:700;
+  padding:7px 9px;
+  cursor:pointer;
+}
+.languages button[aria-pressed="true"] {
+  background:#285167;
+  color:#fff;
+}
+.languages button:hover {background:#213a4b;color:#fff}
+
+/* Hero */
+.hero {
+  text-align:center;
+  padding:54px 16px 60px;
+  border-bottom:1px solid var(--line);
+}
+.hero-logo {
+  width:171px;
+  height:171px;
+  object-fit:contain;
+  display:block;
+  margin:0 auto 10px;
+}
+.eyebrow {
+  text-transform:uppercase;
+  color:var(--cyan);
+  font-size:12px;
+  letter-spacing:.14em;
+  font-weight:750;
+}
+.hero h1 {
+  font-size:clamp(24px,3.6vw,40px);
+  letter-spacing:-.035em;
+  line-height:1.18;
+  margin:12px auto 15px;
+}
+.hero p {
+  color:#c5d0dd;
+  font-size:clamp(15px,1.7vw,18px);
+  max-width:720px;
+  margin:0 auto 23px;
+}
+
+/* GitHub-style buttons */
+.badges {
+  display:flex;
+  justify-content:center;
+  flex-wrap:wrap;
+  gap:7px;
+}
+.badge {
+  display:inline-flex;
+  align-items:stretch;
+  overflow:hidden;
+  border-radius:3px;
+  color:white;
+  font-size:11px;
+  font-weight:800;
+  line-height:24px;
+  white-space:nowrap;
+  text-transform:uppercase;
+}
+.badge:hover {text-decoration:none;filter:brightness(1.13)}
+.badge b,.badge span {display:block;padding:0 10px}
+.badge b {background:#555}
+.badge span {background:#18191c}
+.badge.focus span {background:#0c8293}
+.badge.contact span {background:#365dad}
+
+/* Content */
+main {padding:18px 0 70px}
+section {margin:50px 0;scroll-margin-top:25px}
+h2 {margin:0 0 18px;font-size:24px}
+.lead {color:#cbd6e1;max-width:900px}
+strong {color:#f6f8fc}
+.grid {
+  display:grid;
+  grid-template-columns:repeat(3,minmax(0,1fr));
+  gap:14px;
+}
+.card {
+  border:1px solid var(--line);
+  border-radius:15px;
+  background:linear-gradient(145deg,#172231,#121a26);
+  padding:21px;
+  min-width:0;
+}
+.card h3 {margin:0 0 7px;font-size:16px}
+.card p {margin:0;font-size:14px;color:#b8c5d3}
+.step-grid {
+  display:grid;
+  grid-template-columns:repeat(3,minmax(0,1fr));
+  gap:10px;
+  counter-reset:step;
+}
+.step {
+  counter-increment:step;
+  padding:17px;
+  background:#111b29;
+  border:1px solid var(--line);
+  border-radius:10px;
+  font-weight:600;
+  font-size:14px;
+}
+.step::before {
+  content:counter(step,decimal-leading-zero);
+  display:block;
+  color:var(--cyan);
+  font-size:12px;
+  margin-bottom:6px;
+}
+details {
+  margin:20px 0;
+  border:1px solid var(--line);
+  border-radius:13px;
+  background:#121b28;
+  overflow:hidden;
+}
+summary {cursor:pointer;padding:17px 20px;font-weight:700}
+summary::marker {color:var(--cyan)}
+details[open] summary {border-bottom:1px solid var(--line)}
+.details-body {padding:20px}
+.details-body h3 {margin-top:0}
+.details-body li {margin-bottom:8px}
+.principles {margin-top:17px;font-size:13px;color:#aebdcf}
+.table-scroll {overflow-x:auto}
+table {width:100%;border-collapse:collapse;font-size:14px}
+th,td {padding:10px 12px;border-bottom:1px solid var(--line);text-align:left}
+th {color:#dce9f7;background:#202d3b}
+td {color:#bbcada}
+td:first-child {color:#f1f6fc;font-weight:650}
+.skills {
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-wrap:wrap;
+  gap:5px;
+  padding:7px 0;
+}
+.skills img {height:22px;max-width:100%}
+.projects {
+  display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:14px;
+}
+.project-title {
+  display:flex;
+  justify-content:space-between;
+  gap:8px;
+  font-weight:750;
+  margin-bottom:7px;
+}
+.note {
+  font-size:11px;
+  font-weight:500;
+  color:var(--muted);
+  text-transform:uppercase;
+}
+.stats {
+  display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:14px;
+}
+.stats .card {
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  padding:12px;
+  min-height:195px;
+}
+.stats img {width:100%;max-height:280px;object-fit:contain}
+.small {font-size:12px;color:var(--muted)}
+footer {
+  text-align:center;
+  padding:30px 20px 45px;
+  border-top:1px solid var(--line);
+  color:var(--muted);
+  font-size:13px;
+}
+
+/* Floating Top button */
+.to-top {
+  position:fixed;
+  right:22px;
+  bottom:22px;
+  z-index:20;
+  display:flex;
+  align-items:center;
+  gap:7px;
+  border:1px solid #41657a;
+  border-radius:10px;
+  background:#162b3bea;
+  color:white;
+  padding:10px 14px;
+  font-family:inherit;
+  font-size:13px;
+  font-weight:700;
+  cursor:pointer;
+  box-shadow:0 5px 22px #0007;
+  opacity:0;
+  visibility:hidden;
+  transform:translateY(9px);
+  transition:opacity .18s,transform .18s,visibility .18s;
+}
+.to-top.visible {
+  opacity:1;
+  visibility:visible;
+  transform:translateY(0);
+}
+.to-top:hover {background:#25465b}
+
+/* Responsive */
+@media(max-width:860px) {
+  .topbar .wrap {
+    grid-template-columns:1fr auto;
+    gap:9px 12px;
+    padding-top:11px;
+    padding-bottom:11px;
+  }
+  .brand {grid-column:1;grid-row:1}
+  .languages {grid-column:2;grid-row:1}
+  .nav {
+    grid-column:1/-1;
+    grid-row:2;
+    justify-content:center;
+    gap:13px;
+  }
+}
+@media(max-width:760px) {
+  .wrap {padding:0 18px}
+  .grid,.step-grid {grid-template-columns:repeat(2,minmax(0,1fr))}
+  .hero {padding:32px 8px 43px}
+  .hero-logo {width:150px;height:150px}
+  .projects,.stats {grid-template-columns:1fr}
+}
+@media(max-width:470px) {
+  .grid,.step-grid {grid-template-columns:1fr}
+  h2 {font-size:22px}
+  .card {padding:17px}
+  .nav {gap:10px;font-size:12px}
+  .languages button {padding:7px 8px}
+  .to-top {right:14px;bottom:14px}
+}
+@media(prefers-reduced-motion:reduce) {
+  html {scroll-behavior:auto}
+  .to-top {transition:none}
+}
+</style>
 </head>
 
 <body>
 
-  <!-- HEADER -->
-
-  <header class="topbar">
-    <div class="wrap">
-
-      <a class="brand" href="#top">
-        <img
-          src="profile/Oldman_Logo_White_Clear.png"
-          alt=""
-          aria-hidden="true"
-          width="27"
-          height="27">
-        Mr.OLDMAN
-      </a>
-
-      <nav class="nav" aria-label="Main navigation">
-        <a href="#focus">Expertise</a>
-        <a href="#stack">Technology</a>
-        <a href="#work">Projects</a>
-        <a href="#activity">Activity</a>
-        <a href="#contact">Contact</a>
-      </nav>
-
+<header class="topbar">
+  <div class="wrap">
+    <a class="brand" href="#top">
+      <img src="profile/Oldman_Logo_White_Clear.png" alt="">
+      Mr.OLDMAN
+    </a>
+    <nav class="nav">
+      <a href="#focus" data-t="navExpertise">Expertise</a>
+      <a href="#stack" data-t="navTechnology">Technology</a>
+      <a href="#work" data-t="navProjects">Projects</a>
+      <a href="#activity" data-t="navActivity">Activity</a>
+      <a href="#contact" data-t="navContact">Contact</a>
+    </nav>
+    <div class="languages" role="group" aria-label="Language">
+      <button type="button" data-lang="en" aria-pressed="true">EN</button>
+      <button type="button" data-lang="ru" aria-pressed="false">RU</button>
+      <button type="button" data-lang="zh-CN" aria-pressed="false">中文</button>
     </div>
-  </header>
-
-  <!-- HERO -->
-
-  <div class="wrap" id="top">
-    <div class="hero">
-
-      <img
-        class="hero-logo"
-        src="profile/Mr.Oldman_Logo_Site_White.png"
-        width="171"
-        height="171"
-        alt="Mr.OLDMAN logo">
-
-      <div class="eyebrow">
-        Systems engineering · Platform architecture · Secure infrastructure
-      </div>
-
-      <h1>Designing reliable digital systems</h1>
-
-      <p>
-        From product strategy and software architecture
-        to secure deployment and production operations.
-      </p>
-
-      <!-- PROFILE BUTTONS -->
-
-      <div class="chips">
-
-        <a
-          class="badge-link"
-          href="https://github.com/whoisoldman"
-          rel="noopener noreferrer"
-          aria-label="GitHub profile">
-          <img
-            src="https://img.shields.io/badge/GitHub-whoisoldman-181717?style=for-the-badge&amp;logo=github&amp;logoColor=white"
-            alt="GitHub: whoisoldman">
-        </a>
-
-        <a
-          class="badge-link"
-          href="#focus"
-          aria-label="Systems and infrastructure">
-          <img
-            src="https://img.shields.io/badge/Focus-Systems%20%26%20Infrastructure-0C8293?style=for-the-badge"
-            alt="Focus: Systems &amp; Infrastructure">
-        </a>
-
-        <a
-          class="badge-link"
-          href="https://www.soundbloqs.com/contact/"
-          rel="noopener noreferrer"
-          aria-label="Get in touch">
-          <img
-            src="https://img.shields.io/badge/Contact-Get%20in%20touch-365DAD?style=for-the-badge"
-            alt="Contact: Get in touch">
-        </a>
-
-      </div>
-    </div>
-
-    <main>
-
-      <!-- PROFILE -->
-
-      <section aria-labelledby="profile-title">
-
-        <h2 id="profile-title">Profile</h2>
-
-        <p class="lead">
-          I work at the intersection of
-          <strong>
-            software engineering, infrastructure architecture,
-            data systems, and business strategy
-          </strong>.
-          My approach connects product objectives with secure deployment,
-          operational resilience, and measurable outcomes.
-        </p>
-
-        <p class="lead">
-          My background includes leading development and marketing
-          at an international investment holding and building vertically
-          integrated business operations. Today, that systems-level
-          perspective informs how I design and deliver digital platforms:
-          <strong>
-            end-to-end ownership, clear operational boundaries,
-            disciplined change management, and repeatable verification.
-          </strong>
-        </p>
-
-      </section>
-
-      <!-- ENGINEERING FOCUS -->
-
-      <section id="focus" aria-labelledby="focus-title">
-
-        <h2 id="focus-title">Engineering focus</h2>
-
-        <div class="grid">
-
-          <article class="card">
-            <h3>Platform architecture</h3>
-            <p>
-              Multi-service applications, control planes, API gateways,
-              backend integration and well-defined service boundaries.
-            </p>
-          </article>
-
-          <article class="card">
-            <h3>Infrastructure &amp; operations</h3>
-            <p>
-              Linux, Nginx, systemd, Docker, SSH, TLS,
-              deployment workflows and service health.
-            </p>
-          </article>
-
-          <article class="card">
-            <h3>Networking &amp; security</h3>
-            <p>
-              WireGuard, Xray, reverse proxies, tunnel-based
-              administration, least privilege and credential isolation.
-            </p>
-          </article>
-
-          <article class="card">
-            <h3>Data &amp; automation</h3>
-            <p>
-              PostgreSQL, SQLite, Python, REST APIs,
-              operational automation and analytics.
-            </p>
-          </article>
-
-          <article class="card">
-            <h3>Reliability &amp; recovery</h3>
-            <p>
-              Encrypted backups, restore testing, versioned configuration,
-              integrity checks and reproducible rollbacks.
-            </p>
-          </article>
-
-          <article class="card">
-            <h3>Product engineering</h3>
-            <p>
-              Web interfaces, subscription workflows, customer portals,
-              billing integration and business analytics.
-            </p>
-          </article>
-
-        </div>
-
-        <details>
-          <summary>
-            Explore the engineering approach · architecture and delivery
-          </summary>
-
-          <div class="details-body">
-
-            <h3>From specification to verified release</h3>
-
-            <div class="step-grid" aria-label="Engineering workflow">
-              <div class="step">Product requirements</div>
-              <div class="step">Architecture and interfaces</div>
-              <div class="step">Implementation and tests</div>
-              <div class="step">Controlled delivery</div>
-              <div class="step">Verification and observability</div>
-              <div class="step">Recovery and iteration</div>
-            </div>
-
-            <p class="principles">
-              Continuous feedback · Minimal exposure ·
-              Explicit access boundaries · Encrypted recovery ·
-              Tested rollbacks · Traceable changes.
-            </p>
-
-          </div>
-        </details>
-
-      </section>
-
-      <!-- TECHNOLOGY LANDSCAPE -->
-
-      <section id="stack" aria-labelledby="stack-title">
-
-        <h2 id="stack-title">Technology landscape</h2>
-
-        <div class="skills" aria-label="Technology stack">
-
-          <img
-            src="https://img.shields.io/badge/Python-3776AB?style=flat-square&amp;logo=python&amp;logoColor=white"
-            alt="Python">
-
-          <img
-            src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&amp;logo=javascript&amp;logoColor=black"
-            alt="JavaScript">
-
-          <img
-            src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&amp;logo=postgresql&amp;logoColor=white"
-            alt="PostgreSQL">
-
-          <img
-            src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&amp;logo=sqlite&amp;logoColor=white"
-            alt="SQLite">
-
-          <img
-            src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&amp;logo=linux&amp;logoColor=black"
-            alt="Linux">
-
-          <img
-            src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&amp;logo=docker&amp;logoColor=white"
-            alt="Docker">
-
-          <img
-            src="https://img.shields.io/badge/Nginx-009639?style=flat-square&amp;logo=nginx&amp;logoColor=white"
-            alt="Nginx">
-
-          <img
-            src="https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&amp;logo=cloudflare&amp;logoColor=white"
-            alt="Cloudflare">
-
-          <img
-            src="https://img.shields.io/badge/Git-F05032?style=flat-square&amp;logo=git&amp;logoColor=white"
-            alt="Git">
-
-          <img
-            src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&amp;logo=githubactions&amp;logoColor=white"
-            alt="GitHub Actions">
-
-        </div>
-
-        <details>
-          <summary>Full stack &amp; toolchain</summary>
-
-          <div class="details-body table-scroll">
-            <table>
-
-              <thead>
-                <tr>
-                  <th>Layer</th>
-                  <th>Technologies &amp; capabilities</th>
-                </tr>
-              </thead>
-
-              <tbody>
-
-                <tr>
-                  <td>Application</td>
-                  <td>
-                    Python, JavaScript, HTML, CSS, Django,
-                    Flask, REST APIs, SQLAlchemy
-                  </td>
-                </tr>
-
-                <tr>
-                  <td>Frontend</td>
-                  <td>
-                    React, Tailwind CSS, Fetch API,
-                    responsive UI components
-                  </td>
-                </tr>
-
-                <tr>
-                  <td>Data</td>
-                  <td>
-                    PostgreSQL, SQLite, JSON, XML,
-                    Power BI, DAX
-                  </td>
-                </tr>
-
-                <tr>
-                  <td>Infrastructure</td>
-                  <td>
-                    Ubuntu/Linux, Nginx, Docker Compose,
-                    systemd, SSH, WireGuard, TLS, Cloudflare
-                  </td>
-                </tr>
-
-                <tr>
-                  <td>Delivery</td>
-                  <td>
-                    Git, GitHub, GitLab CI/CD, Ansible,
-                    shell/Python automation
-                  </td>
-                </tr>
-
-                <tr>
-                  <td>Assurance</td>
-                  <td>
-                    Restic, age encryption, SHA-256 verification,
-                    backup/restore testing, logging and rollback
-                  </td>
-                </tr>
-
-                <tr>
-                  <td>Developer tooling</td>
-                  <td>
-                    VS Code, Codex, Homebrew, Postman,
-                    Ruff, Black, ESLint, Prettier
-                  </td>
-                </tr>
-
-              </tbody>
-            </table>
-          </div>
-
-        </details>
-
-      </section>
-
-      <!-- SELECTED WORK -->
-
-      <section id="work" aria-labelledby="work-title">
-
-        <h2 id="work-title">Selected work</h2>
-
-        <div class="projects">
-
-          <article class="card">
-            <div class="project-title">
-              Secure distributed services
-              <span class="note">Private</span>
-            </div>
-            <p>
-              Distributed service architecture, private control planes,
-              encrypted delivery, network routing, resilient operations
-              and verified recovery. Implementation details remain private.
-            </p>
-          </article>
-
-          <article class="card">
-            <div class="project-title">
-              <a href="https://soundbloqs.com/">
-                SoundBloqs Community
-              </a>
-              <span class="note">Community</span>
-            </div>
-            <p>
-              Community platform for art, sound,
-              and creative collaboration.
-            </p>
-          </article>
-
-          <article class="card">
-            <div class="project-title">
-              <a href="https://club.trustmoney.uk/">
-                TrustMoney.Club
-              </a>
-              <span class="note">Finance</span>
-            </div>
-            <p>
-              Digital presence for a finance-focused community.
-            </p>
-          </article>
-
-          <article class="card">
-            <div class="project-title">
-              <a href="https://trustmoney.uk/">
-                TrustMoney.UK
-              </a>
-              <span class="note">Business</span>
-            </div>
-            <p>
-              International business and consulting presence.
-            </p>
-          </article>
-
-          <article class="card">
-            <div class="project-title">
-              <a href="https://t.me/tmclubinfo_bot">
-                TrustMoney Telegram
-              </a>
-              <span class="note">Automation</span>
-            </div>
-            <p>
-              Messaging and automated information delivery.
-            </p>
-          </article>
-
-        </div>
-
-        <details>
-          <summary>Open-source repositories &amp; experiments</summary>
-
-          <div class="details-body">
-
-            <h3>Python / APIs / architecture</h3>
-
-            <ul>
-              <li>
-                <a href="https://github.com/whoisoldman/analyze_clipboard_text">Clipboard analysis</a> ·
-                <a href="https://github.com/whoisoldman/api_flask_calendar">Flask calendar API</a> ·
-                <a href="https://github.com/whoisoldman/abstraction_composition_coupling_cohesion">Abstraction &amp; composition</a>
-              </li>
-              <li>
-                <a href="https://github.com/whoisoldman/consumer_supply">Consumer supply</a> ·
-                <a href="https://github.com/whoisoldman/django_orm">Django ORM</a> ·
-                <a href="https://github.com/whoisoldman/oauth_project">OAuth project</a>
-              </li>
-              <li>
-                <a href="https://gitlab.com/ps_learning/ps-learning-python-rest-api-eshop">REST API e-shop</a> ·
-                <a href="https://gitlab.com/ps_learning/ps_learning_flask_sqlalchemy">Flask / SQLAlchemy</a> ·
-                <a href="https://gitlab.com/ps_learning/ps_learning_bookstore">Bookstore</a>
-              </li>
-            </ul>
-
-            <h3>JavaScript / UI</h3>
-
-            <ul>
-              <li>
-                <a href="https://github.com/whoisoldman/dice_react_app">React dice</a> ·
-                <a href="https://github.com/whoisoldman/react_hooks_homework">React hooks</a> ·
-                <a href="https://xwwjqs.csb.app/">Task manager</a> ·
-                <a href="https://gdrhwf.csb.app/">Anime timer</a>
-              </li>
-            </ul>
-
-            <p>
-              <a href="https://github.com/whoisoldman?tab=repositories">
-                Browse repositories
-              </a>
-            </p>
-
-          </div>
-        </details>
-
-      </section>
-
-      <!-- GITHUB ACTIVITY -->
-
-      <section id="activity" aria-labelledby="activity-title">
-
-        <h2 id="activity-title">GitHub activity</h2>
-
-        <div class="stats">
-
-          <div class="card">
-            <img
-              src="profile/stats.svg"
-              alt="GitHub activity statistics"
-              loading="lazy">
-          </div>
-
-          <div class="card">
-            <img
-              src="profile/top-langs.svg"
-              alt="Programming language overview"
-              loading="lazy">
-          </div>
-
-        </div>
-
-        <p class="small">
-          Statistics are rendered from repository SVG assets.
-          Private activity visibility follows GitHub profile settings;
-          language charts reflect repository composition, not proficiency.
-        </p>
-
-      </section>
-
-      <!-- EDUCATION -->
-
-      <section id="credentials" aria-labelledby="credentials-title">
-
-        <details>
-
-          <summary>Education &amp; professional development</summary>
-
-          <div class="details-body">
-            <ul>
-
-              <li>
-                <strong>2000</strong> · Director &amp; Sound Engineer —
-                <a href="https://gitis.net/en/">GITIS</a>
-              </li>
-
-              <li>
-                <strong>2004</strong> · International Business &amp; Economics —
-                <a href="https://www.rsuh.ru/en/">RSUH</a>
-              </li>
-
-              <li>
-                <strong>2023</strong> · Marketplace Management —
-                <a href="https://practicum.yandex.ru/">Yandex Practicum</a>
-              </li>
-
-              <li>
-                <strong>2024</strong> · Data Analytics —
-                <a href="https://en.fa.ru/">Financial University</a>
-              </li>
-
-              <li>
-                <strong>2025</strong> · Python, Full-stack,
-                DevOps &amp; Data Science —
-                <a href="https://productstar.ru/">ProductStar</a>
-              </li>
-
-            </ul>
-          </div>
-
-        </details>
-
-      </section>
-
-    </main>
+  </div>
+</header>
+
+<div class="wrap" id="top">
+<div class="hero">
+  <img class="hero-logo"
+       src="profile/Mr.Oldman_Logo_Site_White.png"
+       alt="Mr.OLDMAN logo">
+  <div class="eyebrow" data-t="eyebrow">
+    Systems engineering · Platform architecture · Secure infrastructure
+  </div>
+  <h1 data-t="heroTitle">Designing reliable digital systems</h1>
+  <p data-t="heroDesc">
+    From product strategy and software architecture to secure deployment and production operations.
+  </p>
+  <div class="badges">
+    <a class="badge" href="https://github.com/whoisoldman">
+      <b>GITHUB</b><span>WHOISOLDMAN</span>
+    </a>
+    <a class="badge focus" href="#focus">
+      <b data-t="badgeFocus">FOCUS</b>
+      <span data-t="badgeSystems">SYSTEMS &amp; INFRASTRUCTURE</span>
+    </a>
+    <a class="badge contact" href="https://www.soundbloqs.com/contact/">
+      <b data-t="badgeContact">CONTACT</b>
+      <span data-t="badgeTouch">GET IN TOUCH</span>
+    </a>
+  </div>
+</div>
+
+<main>
+
+<section>
+  <h2 data-t="profileTitle">Profile</h2>
+  <p class="lead" data-html="profile1">
+    I work at the intersection of <strong>software engineering, infrastructure architecture, data systems, and business strategy</strong>. My approach connects product objectives with secure deployment, operational resilience, and measurable outcomes.
+  </p>
+  <p class="lead" data-html="profile2">
+    My background includes leading development and marketing at an international investment holding and building vertically integrated business operations. Today, that systems-level perspective informs how I design and deliver digital platforms: <strong>end-to-end ownership, clear operational boundaries, disciplined change management, and repeatable verification.</strong>
+  </p>
+</section>
+
+<section id="focus">
+  <h2 data-t="focusTitle">Engineering focus</h2>
+  <div class="grid">
+    <article class="card">
+      <h3 data-t="focus1">Platform architecture</h3>
+      <p data-t="focus1d">Multi-service applications, control planes, API gateways, backend integration and well-defined service boundaries.</p>
+    </article>
+    <article class="card">
+      <h3 data-t="focus2">Infrastructure &amp; operations</h3>
+      <p data-t="focus2d">Linux, Nginx, systemd, Docker, SSH, TLS, deployment workflows and service health.</p>
+    </article>
+    <article class="card">
+      <h3 data-t="focus3">Networking &amp; security</h3>
+      <p data-t="focus3d">WireGuard, Xray, reverse proxies, tunnel-based administration, least privilege and credential isolation.</p>
+    </article>
+    <article class="card">
+      <h3 data-t="focus4">Data &amp; automation</h3>
+      <p data-t="focus4d">PostgreSQL, SQLite, Python, REST APIs, operational automation and analytics.</p>
+    </article>
+    <article class="card">
+      <h3 data-t="focus5">Reliability &amp; recovery</h3>
+      <p data-t="focus5d">Encrypted backups, restore testing, versioned configuration, integrity checks and reproducible rollbacks.</p>
+    </article>
+    <article class="card">
+      <h3 data-t="focus6">Product engineering</h3>
+      <p data-t="focus6d">Web interfaces, subscription workflows, customer portals, billing integration and business analytics.</p>
+    </article>
   </div>
 
-  <!-- FOOTER -->
+  <details>
+    <summary data-t="approach">Explore the engineering approach · architecture and delivery</summary>
+    <div class="details-body">
+      <h3 data-t="workflowTitle">From specification to verified release</h3>
+      <div class="step-grid">
+        <div class="step" data-t="step1">Product requirements</div>
+        <div class="step" data-t="step2">Architecture and interfaces</div>
+        <div class="step" data-t="step3">Implementation and tests</div>
+        <div class="step" data-t="step4">Controlled delivery</div>
+        <div class="step" data-t="step5">Verification and observability</div>
+        <div class="step" data-t="step6">Recovery and iteration</div>
+      </div>
+      <p class="principles" data-t="principles">
+        Continuous feedback · Minimal exposure · Explicit access boundaries · Encrypted recovery · Tested rollbacks · Traceable changes.
+      </p>
+    </div>
+  </details>
+</section>
 
-  <footer id="contact">
+<section id="stack">
+  <h2 data-t="stackTitle">Technology landscape</h2>
+  <div class="skills">
+    <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&amp;logo=python&amp;logoColor=white" alt="Python">
+    <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&amp;logo=javascript&amp;logoColor=black" alt="JavaScript">
+    <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&amp;logo=postgresql&amp;logoColor=white" alt="PostgreSQL">
+    <img src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&amp;logo=sqlite&amp;logoColor=white" alt="SQLite">
+    <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&amp;logo=linux&amp;logoColor=black" alt="Linux">
+    <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&amp;logo=docker&amp;logoColor=white" alt="Docker">
+    <img src="https://img.shields.io/badge/Nginx-009639?style=flat-square&amp;logo=nginx&amp;logoColor=white" alt="Nginx">
+    <img src="https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&amp;logo=cloudflare&amp;logoColor=white" alt="Cloudflare">
+    <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&amp;logo=git&amp;logoColor=white" alt="Git">
+    <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&amp;logo=githubactions&amp;logoColor=white" alt="GitHub Actions">
+  </div>
 
-    <strong>
-      Systems thinking. Security by design. Verification before release.
-    </strong>
+  <details>
+    <summary data-t="fullStack">Full stack &amp; toolchain</summary>
+    <div class="details-body table-scroll">
+      <table>
+        <thead>
+          <tr>
+            <th data-t="tableLayer">Layer</th>
+            <th data-t="tableCapabilities">Technologies &amp; capabilities</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td data-t="layerApp">Application</td><td>Python, JavaScript, HTML, CSS, Django, Flask, REST APIs, SQLAlchemy</td></tr>
+          <tr><td data-t="layerFront">Frontend</td><td>React, Tailwind CSS, Fetch API, responsive UI components</td></tr>
+          <tr><td data-t="layerData">Data</td><td>PostgreSQL, SQLite, JSON, XML, Power BI, DAX</td></tr>
+          <tr><td data-t="layerInfra">Infrastructure</td><td>Ubuntu/Linux, Nginx, Docker Compose, systemd, SSH, WireGuard, TLS, Cloudflare</td></tr>
+          <tr><td data-t="layerDelivery">Delivery</td><td>Git, GitHub, GitLab CI/CD, Ansible, shell/Python automation</td></tr>
+          <tr><td data-t="layerAssurance">Assurance</td><td>Restic, age encryption, SHA-256 verification, backup/restore testing, logging and rollback</td></tr>
+          <tr><td data-t="layerTools">Developer tooling</td><td>VS Code, Codex, Homebrew, Postman, Ruff, Black, ESLint, Prettier</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </details>
+</section>
 
-    <p>
-      <a href="https://www.soundbloqs.com/contact/">Contact</a>
-      &nbsp;·&nbsp;
-      <a href="https://github.com/whoisoldman">GitHub</a>
-      &nbsp;·&nbsp;
-      <a href="https://t.me/soundbloqsfb_bot">Telegram</a>
-    </p>
+<section id="work">
+  <h2 data-t="selectedWork">Selected work</h2>
+  <div class="projects">
+    <article class="card">
+      <div class="project-title"><span data-t="project1">Secure distributed services</span><span class="note" data-t="private">Private</span></div>
+      <p data-t="project1d">Distributed service architecture, private control planes, encrypted delivery, network routing, resilient operations and verified recovery. Implementation details remain private.</p>
+    </article>
+    <article class="card">
+      <div class="project-title"><a href="https://soundbloqs.com/">SoundBloqs Community</a><span class="note" data-t="community">Community</span></div>
+      <p data-t="project2d">Community platform for art, sound, and creative collaboration.</p>
+    </article>
+    <article class="card">
+      <div class="project-title"><a href="https://club.trustmoney.uk/">TrustMoney.Club</a><span class="note" data-t="finance">Finance</span></div>
+      <p data-t="project3d">Digital presence for a finance-focused community.</p>
+    </article>
+    <article class="card">
+      <div class="project-title"><a href="https://trustmoney.uk/">TrustMoney.UK</a><span class="note" data-t="business">Business</span></div>
+      <p data-t="project4d">International business and consulting presence.</p>
+    </article>
+    <article class="card">
+      <div class="project-title"><a href="https://t.me/tmclubinfo_bot">TrustMoney Telegram</a><span class="note" data-t="automation">Automation</span></div>
+      <p data-t="project5d">Messaging and automated information delivery.</p>
+    </article>
+  </div>
 
-    <span>
-      © 2019-<span id="current-year">2026</span> | Mr.OLDMAN
-    </span>
+  <details>
+    <summary data-t="openSource">Open-source repositories &amp; experiments</summary>
+    <div class="details-body">
+      <h3 data-t="pythonProjects">Python / APIs / architecture</h3>
+      <ul>
+        <li><a href="https://github.com/whoisoldman/analyze_clipboard_text">Clipboard analysis</a> · <a href="https://github.com/whoisoldman/api_flask_calendar">Flask calendar API</a> · <a href="https://github.com/whoisoldman/abstraction_composition_coupling_cohesion">Abstraction &amp; composition</a></li>
+        <li><a href="https://github.com/whoisoldman/consumer_supply">Consumer supply</a> · <a href="https://github.com/whoisoldman/django_orm">Django ORM</a> · <a href="https://github.com/whoisoldman/oauth_project">OAuth project</a></li>
+        <li><a href="https://gitlab.com/ps_learning/ps-learning-python-rest-api-eshop">REST API e-shop</a> · <a href="https://gitlab.com/ps_learning/ps_learning_flask_sqlalchemy">Flask / SQLAlchemy</a> · <a href="https://gitlab.com/ps_learning/ps_learning_bookstore">Bookstore</a></li>
+      </ul>
+      <h3 data-t="jsProjects">JavaScript / UI</h3>
+      <ul>
+        <li><a href="https://github.com/whoisoldman/dice_react_app">React dice</a> · <a href="https://github.com/whoisoldman/react_hooks_homework">React hooks</a> · <a href="https://xwwjqs.csb.app/">Task manager</a> · <a href="https://gdrhwf.csb.app/">Anime timer</a></li>
+      </ul>
+      <a href="https://github.com/whoisoldman?tab=repositories" data-t="browseRepos">Browse repositories</a>
+    </div>
+  </details>
+</section>
 
-  </footer>
+<section id="activity">
+  <h2 data-t="githubActivity">GitHub activity</h2>
+  <div class="stats">
+    <div class="card"><img src="profile/stats.svg" alt="GitHub activity statistics" loading="lazy"></div>
+    <div class="card"><img src="profile/top-langs.svg" alt="Programming language overview" loading="lazy"></div>
+  </div>
+  <p class="small" data-t="statsNote">
+    Statistics are rendered from repository SVG assets. Private activity visibility follows GitHub profile settings; language charts reflect repository composition, not proficiency.
+  </p>
+</section>
 
-  <!-- AUTOMATIC CURRENT YEAR -->
+<section id="credentials">
+  <details>
+    <summary data-t="education">Education &amp; professional development</summary>
+    <div class="details-body">
+      <ul>
+        <li><strong>2000</strong> · <span data-t="edu1">Director &amp; Sound Engineer</span> — <a href="https://gitis.net/en/">GITIS</a></li>
+        <li><strong>2004</strong> · <span data-t="edu2">International Business &amp; Economics</span> — <a href="https://www.rsuh.ru/en/">RSUH</a></li>
+        <li><strong>2023</strong> · <span data-t="edu3">Marketplace Management</span> — <a href="https://practicum.yandex.ru/">Yandex Practicum</a></li>
+        <li><strong>2024</strong> · <span data-t="edu4">Data Analytics</span> — <a href="https://en.fa.ru/">Financial University</a></li>
+        <li><strong>2025</strong> · <span data-t="edu5">Python, Full-stack, DevOps &amp; Data Science</span> — <a href="https://productstar.ru/">ProductStar</a></li>
+      </ul>
+    </div>
+  </details>
+</section>
 
-  <script>
-    document.getElementById("current-year").textContent =
-      new Date().getFullYear();
-  </script>
+</main>
+</div>
 
+<footer id="contact">
+  <strong data-t="motto">Systems thinking. Security by design. Verification before release.</strong>
+  <p>
+    <a href="https://www.soundbloqs.com/contact/" data-t="footerContact">Contact</a> ·
+    <a href="https://github.com/whoisoldman">GitHub</a> ·
+    <a href="https://t.me/soundbloqsfb_bot">Telegram</a>
+  </p>
+  <span>© 2019-<span id="current-year">2026</span> | Mr.OLDMAN</span>
+</footer>
+
+<button class="to-top" id="to-top" type="button">
+  <span>↑</span><span data-t="topButton">Top</span>
+</button>
+
+<script>
+"use strict";
+
+const translations = {
+  ru: {
+    navExpertise:"Компетенции",
+    navTechnology:"Технологии",
+    navProjects:"Проекты",
+    navActivity:"Активность",
+    navContact:"Контакты",
+    eyebrow:"Системная инженерия · Архитектура платформ · Защищённая инфраструктура",
+    heroTitle:"Проектирование надёжных цифровых систем",
+    heroDesc:"От продуктовой стратегии и архитектуры ПО до защищённого развёртывания и эксплуатации.",
+    badgeFocus:"ПРОФИЛЬ",
+    badgeSystems:"СИСТЕМЫ И ИНФРАСТРУКТУРА",
+    badgeContact:"КОНТАКТ",
+    badgeTouch:"СВЯЗАТЬСЯ",
+    profileTitle:"Профессиональный профиль",
+    profile1:"Я работаю на пересечении <strong>разработки программного обеспечения, архитектуры инфраструктуры, систем данных и бизнес-стратегии</strong>. Соединяю цели продукта с безопасным развёртыванием, устойчивой эксплуатацией и измеримыми результатами.",
+    profile2:"Мой опыт включает руководство развитием и маркетингом в международном инвестиционном холдинге, а также построение вертикально интегрированных бизнес-процессов. Сегодня этот системный подход помогает мне проектировать и развивать цифровые платформы: <strong>ответственность за полный цикл, чёткие эксплуатационные границы, контролируемые изменения и воспроизводимая проверка результатов.</strong>",
+    focusTitle:"Инженерная специализация",
+    focus1:"Архитектура платформ",
+    focus1d:"Многосервисные приложения, управляющие контуры, API-шлюзы, интеграция бэкенда и разделение сервисов.",
+    focus2:"Инфраструктура и эксплуатация",
+    focus2d:"Linux, Nginx, systemd, Docker, SSH, TLS, процессы развёртывания и мониторинг состояния сервисов.",
+    focus3:"Сети и безопасность",
+    focus3d:"WireGuard, Xray, обратные прокси, администрирование через туннели, минимальные привилегии и изоляция учётных данных.",
+    focus4:"Данные и автоматизация",
+    focus4d:"PostgreSQL, SQLite, Python, REST API, автоматизация эксплуатации и аналитика.",
+    focus5:"Надёжность и восстановление",
+    focus5d:"Шифрованные резервные копии, тестирование восстановления, версионирование конфигурации, контроль целостности и откаты.",
+    focus6:"Продуктовая разработка",
+    focus6d:"Веб-интерфейсы, подписки, личные кабинеты, интеграция платежей и бизнес-аналитика.",
+    approach:"Инженерный подход · архитектура и поставка",
+    workflowTitle:"От требований до проверенного релиза",
+    step1:"Требования к продукту",
+    step2:"Архитектура и интерфейсы",
+    step3:"Разработка и тесты",
+    step4:"Контролируемый выпуск",
+    step5:"Проверка и наблюдаемость",
+    step6:"Восстановление и развитие",
+    principles:"Постоянная обратная связь · Минимальная открытость · Разграничение доступа · Шифрованное восстановление · Проверенные откаты · Прослеживаемые изменения.",
+    stackTitle:"Технологический стек",
+    fullStack:"Полный стек и инструменты",
+    tableLayer:"Уровень",
+    tableCapabilities:"Технологии и возможности",
+    layerApp:"Приложения",
+    layerFront:"Фронтенд",
+    layerData:"Данные",
+    layerInfra:"Инфраструктура",
+    layerDelivery:"Развёртывание",
+    layerAssurance:"Контроль качества",
+    layerTools:"Инструменты разработчика",
+    selectedWork:"Избранные проекты",
+    project1:"Защищённые распределённые сервисы",
+    private:"Закрытый",
+    project1d:"Архитектура распределённых сервисов, закрытые управляющие контуры, шифрованная доставка, сетевая маршрутизация, отказоустойчивость и проверенное восстановление. Детали реализации остаются закрытыми.",
+    community:"Сообщество",
+    project2d:"Платформа для сообщества в сфере искусства, звука и творческого сотрудничества.",
+    finance:"Финансы",
+    project3d:"Цифровое присутствие сообщества, посвящённого финансовым вопросам.",
+    business:"Бизнес",
+    project4d:"Международный деловой и консультационный проект.",
+    automation:"Автоматизация",
+    project5d:"Обмен сообщениями и автоматизированная доставка информации.",
+    openSource:"Открытые репозитории и эксперименты",
+    pythonProjects:"Python / API / архитектура",
+    jsProjects:"JavaScript / интерфейсы",
+    browseRepos:"Смотреть репозитории",
+    githubActivity:"Активность GitHub",
+    statsNote:"Статистика отображается из SVG-файлов репозитория. Видимость приватной активности определяется настройками GitHub; распределение языков отражает состав репозиториев, а не уровень владения технологиями.",
+    education:"Образование и профессиональное развитие",
+    edu1:"Режиссура и звукорежиссура",
+    edu2:"Международный бизнес и экономика",
+    edu3:"Управление маркетплейсами",
+    edu4:"Аналитика данных",
+    edu5:"Python, Full-stack, DevOps и Data Science",
+    motto:"Системное мышление. Безопасность на этапе проектирования. Проверка перед выпуском.",
+    footerContact:"Связаться",
+    topButton:"Наверх"
+  },
+
+  "zh-CN": {
+    navExpertise:"专业领域",
+    navTechnology:"技术栈",
+    navProjects:"项目",
+    navActivity:"动态",
+    navContact:"联系",
+    eyebrow:"系统工程 · 平台架构 · 安全基础设施",
+    heroTitle:"构建可靠的数字系统",
+    heroDesc:"从产品战略和软件架构，到安全部署与生产环境运维。",
+    badgeFocus:"专长",
+    badgeSystems:"系统与基础设施",
+    badgeContact:"联系",
+    badgeTouch:"与我联系",
+    profileTitle:"个人简介",
+    profile1:"我专注于<strong>软件工程、基础设施架构、数据系统和商业战略</strong>的交叉领域，将产品目标与安全部署、稳定运营和可衡量的成果相结合。",
+    profile2:"我曾在国际投资控股集团负责业务发展与市场营销，并参与构建垂直整合的业务管理体系。如今，我将这一系统性视角运用于数字平台的设计与交付：<strong>端到端负责、清晰的运维边界、规范的变更管理，以及可重复验证的交付流程。</strong>",
+    focusTitle:"工程专长",
+    focus1:"平台架构",
+    focus1d:"多服务应用、控制平面、API 网关、后端集成与清晰的服务边界。",
+    focus2:"基础设施与运维",
+    focus2d:"Linux、Nginx、systemd、Docker、SSH、TLS、部署流程与服务健康监测。",
+    focus3:"网络与安全",
+    focus3d:"WireGuard、Xray、反向代理、隧道化管理、最小权限和凭据隔离。",
+    focus4:"数据与自动化",
+    focus4d:"PostgreSQL、SQLite、Python、REST API、运维自动化与数据分析。",
+    focus5:"可靠性与恢复",
+    focus5d:"加密备份、恢复测试、配置版本管理、完整性校验和可重复的回滚。",
+    focus6:"产品工程",
+    focus6d:"网页界面、订阅流程、客户门户、支付集成和商业分析。",
+    approach:"工程方法 · 架构与交付",
+    workflowTitle:"从需求到经过验证的发布",
+    step1:"产品需求",
+    step2:"架构与接口",
+    step3:"开发与测试",
+    step4:"受控发布",
+    step5:"验证与可观测性",
+    step6:"恢复与迭代",
+    principles:"持续反馈 · 最小暴露面 · 明确的访问边界 · 加密恢复 · 经过测试的回滚 · 可追踪的变更。",
+    stackTitle:"技术概览",
+    fullStack:"完整技术栈与工具链",
+    tableLayer:"层级",
+    tableCapabilities:"技术与能力",
+    layerApp:"应用开发",
+    layerFront:"前端",
+    layerData:"数据",
+    layerInfra:"基础设施",
+    layerDelivery:"交付部署",
+    layerAssurance:"质量保障",
+    layerTools:"开发工具",
+    selectedWork:"代表项目",
+    project1:"安全分布式服务",
+    private:"非公开",
+    project1d:"分布式服务架构、私有控制平面、加密交付、网络路由、稳定运维和经过验证的恢复流程。实现细节保持非公开。",
+    community:"社区",
+    project2d:"面向艺术、声音和创意协作的社区平台。",
+    finance:"金融",
+    project3d:"金融主题社区的数字平台。",
+    business:"商业",
+    project4d:"国际商务与咨询项目。",
+    automation:"自动化",
+    project5d:"消息交互与自动化信息传递。",
+    openSource:"开源仓库与实验项目",
+    pythonProjects:"Python / API / 架构",
+    jsProjects:"JavaScript / 用户界面",
+    browseRepos:"浏览代码仓库",
+    githubActivity:"GitHub 活动",
+    statsNote:"统计图由仓库中的 SVG 文件提供。私有贡献的可见性遵循 GitHub 个人资料设置；语言分布反映仓库组成，不代表技术熟练程度。",
+    education:"教育背景与专业发展",
+    edu1:"导演与录音工程",
+    edu2:"国际商务与经济学",
+    edu3:"电商平台管理",
+    edu4:"数据分析",
+    edu5:"Python、全栈开发、DevOps 与数据科学",
+    motto:"系统思维。安全设计。发布前验证。",
+    footerContact:"联系",
+    topButton:"顶部"
+  }
+};
+
+// Keep the original English content for restoring the default language.
+const originalText = new Map(
+  [...document.querySelectorAll("[data-t]")]
+    .map(element => [element, element.textContent])
+);
+const originalHTML = new Map(
+  [...document.querySelectorAll("[data-html]")]
+    .map(element => [element, element.innerHTML])
+);
+
+function applyLanguage(lang) {
+  const locale = ["en", "ru", "zh-CN"].includes(lang) ? lang : "en";
+  const dictionary = translations[locale] || {};
+
+  document.documentElement.lang = locale;
+
+  originalText.forEach((english, element) => {
+    element.textContent = dictionary[element.dataset.t] ?? english;
+  });
+
+  originalHTML.forEach((english, element) => {
+    element.innerHTML = dictionary[element.dataset.html] ?? english;
+  });
+
+  document.querySelectorAll(".languages button").forEach(button => {
+    button.setAttribute("aria-pressed", String(button.dataset.lang === locale));
+  });
+
+  try {
+    localStorage.setItem("mr-oldman-language", locale);
+  } catch (_) {}
+}
+
+document.querySelectorAll(".languages button").forEach(button => {
+  button.addEventListener("click", () => applyLanguage(button.dataset.lang));
+});
+
+let initialLanguage = "en";
+try {
+  initialLanguage = localStorage.getItem("mr-oldman-language") || "en";
+} catch (_) {}
+
+applyLanguage(initialLanguage);
+
+// Automatic copyright year.
+document.getElementById("current-year").textContent =
+  new Date().getFullYear();
+
+// Floating Top button.
+const topButton = document.getElementById("to-top");
+
+function updateTopButton() {
+  topButton.classList.toggle("visible", window.scrollY > 380);
+}
+
+window.addEventListener("scroll", updateTopButton, {passive:true});
+updateTopButton();
+
+topButton.addEventListener("click", () => {
+  const reducedMotion = window.matchMedia(
+    "(prefers-reduced-motion: reduce)"
+  ).matches;
+
+  window.scrollTo({
+    top:0,
+    behavior:reducedMotion ? "auto" : "smooth"
+  });
+});
+</script>
 </body>
 </html>
