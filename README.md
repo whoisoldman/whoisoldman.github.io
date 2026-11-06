@@ -15,8 +15,6 @@
 
 **Designing reliable digital systems — from product strategy to production operations.**
 
----
-
 [![GitHub](https://img.shields.io/badge/GitHub-whoisoldman-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/whoisoldman)
 [![Focus](https://img.shields.io/badge/Focus-Systems%20%26%20Infrastructure-0C8293?style=for-the-badge)](#engineering-focus)
 [![Contact](https://img.shields.io/badge/Contact-Get%20in%20touch-365DAD?style=for-the-badge)](https://www.soundbloqs.com/contact/)
