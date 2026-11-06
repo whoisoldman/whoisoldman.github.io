@@ -1,16 +1,13 @@
 
 <div align="center">
 
-<div align="center">
-  <h1>
-    <img
-      src="profile/Oldman_Logo_White_Clear.png"
-      alt="Mr.OLDMAN Logo"
-      height="38"
-      align="middle"
-    />&nbsp;Mr.OLDMAN
-  </h1>
-</div>
+<p align="center">
+  <img
+    src="profile/Mr.Oldman_Logo_Site_White.png"
+    alt="Mr.OLDMAN"
+    height="60"
+  />
+</p>
 
 ### Systems Engineering · Platform Architecture · Secure Infrastructure
 
