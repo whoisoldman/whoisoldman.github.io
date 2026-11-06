@@ -5,7 +5,7 @@
   <img
     src="profile/Mr.Oldman_Logo_Site_White.png"
     alt="Mr.OLDMAN"
-    height="221"
+    height="171"
   />
 </p>
 
